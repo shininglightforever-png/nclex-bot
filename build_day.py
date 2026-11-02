@@ -41,7 +41,7 @@ def main(src, date, folder=None):
             "time": f"{date}T{POST_TIMES[i % len(POST_TIMES)]}:00",
             "video": v,
             "caption": cap,
-            "platforms": ["ig_reel", "fb_reel", "tiktok_inbox"],
+            "platforms": ["ig_reel", "fb_reel"],  # add "tiktok_inbox" once TikTok is linked
         })
     # photo kit for the personal Facebook profile (posted by hand)
     photos = []
