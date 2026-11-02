@@ -38,9 +38,25 @@ def url(path):
     return f"{RAW}/{path}"
 
 
+_page_token = None
+
+
+def page_token():
+    """Works whether the secret holds a Page token or a user token."""
+    global _page_token
+    if _page_token is None:
+        r = requests.get(f"{GRAPH}/{PAGE_ID}", params={"fields": "access_token",
+                                                      "access_token": PAGE_TOKEN}, timeout=60)
+        _page_token = r.json().get("access_token") or PAGE_TOKEN
+    return _page_token
+
+
 def graph(method, path, **data):
-    data["access_token"] = PAGE_TOKEN
-    r = requests.request(method, f"{GRAPH}/{path}", data=data, timeout=120)
+    data["access_token"] = page_token()
+    if method == "GET":
+        r = requests.get(f"{GRAPH}/{path}", params=data, timeout=120)
+    else:
+        r = requests.request(method, f"{GRAPH}/{path}", data=data, timeout=120)
     if r.status_code >= 400:
         raise RuntimeError(f"{path}: {r.text}")
     return r.json()
@@ -85,7 +101,7 @@ def fb_reel(video, caption):
     start = graph("POST", f"{PAGE_ID}/video_reels", upload_phase="start")
     vid = start["video_id"]
     r = requests.post(f"https://rupload.facebook.com/video-upload/v21.0/{vid}",
-                      headers={"Authorization": f"OAuth {PAGE_TOKEN}", "file_url": url(video)},
+                      headers={"Authorization": f"OAuth {page_token()}", "file_url": url(video)},
                       timeout=300)
     if r.status_code >= 400:
         raise RuntimeError(f"FB reel upload: {r.text}")
