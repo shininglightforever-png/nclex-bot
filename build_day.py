@@ -8,6 +8,8 @@ and bumps state/counter.json so numbering keeps going.
 """
 import json, os, sys, shutil
 from render import render_batch
+from photo_card import photo_card
+from kit import write_kit
 
 HASHTAGS = "#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing"
 # Spread through the day (local time)
@@ -41,13 +43,29 @@ def main(src, date, folder=None):
             "caption": cap,
             "platforms": ["ig_reel", "fb_reel", "tiktok_inbox"],
         })
-    json.dump({"date": date, "items": items}, open(f"{out}/plan.json", "w"), indent=2)
+    # photo kit for the personal Facebook profile (posted by hand)
+    photos = []
+    pc_path = "state/photo_counter.json"
+    pnum = json.load(open(pc_path))["next"] if os.path.exists(pc_path) else 239
+    os.makedirs(f"{out}/photos", exist_ok=True)
+    for i, q in enumerate(data.get("photo_questions", [])):
+        img = f"{out}/photos/{pnum:04d}.png"
+        photo_card(q, pnum).save(img)
+        photos.append({"num": pnum, "image": img, "topic": q.get("topic", ""),
+                       "time": POST_TIMES[i % len(POST_TIMES)],
+                       "question": q["question"],
+                       "caption": q["fb_caption"].replace("{NUM}", str(pnum))})
+        pnum += 1
+    json.dump({"next": pnum}, open(pc_path, "w"))
+    json.dump({"date": date, "items": items, "photos": photos}, open(f"{out}/plan.json", "w"), indent=2)
+    write_kit()
     json.dump({"next": nxt}, open(counter_path, "w"))
     # running list of every question used, so new batches never repeat
     hist_path = "state/history.json"
     hist = json.load(open(hist_path)) if os.path.exists(hist_path) else []
     hist += [{"num": m["num"], "topic": m["q"].get("topic", ""), "question": m["q"]["question"]}
              for m in made]
+    hist += [{"num": f"P{p['num']}", "topic": p["topic"], "question": p["question"]} for p in photos]
     json.dump(hist, open(hist_path, "w"), indent=1)
     print(f"{date}: {len(made)} questions, {len(items)} reels, next #{nxt}")
 

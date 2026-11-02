@@ -18,5 +18,40 @@
   "num": 157,
   "topic": "Electrolytes",
   "question": "Which finding should the nurse expect in a client with hypocalcemia?"
+ },
+ {
+  "num": "P239",
+  "topic": "Pharmacology",
+  "question": "A client receiving IV vancomycin develops flushing and a red rash on the face, neck and upper chest during the infusion. Vital signs are stable. What is the priority nursing action?"
+ },
+ {
+  "num": "P240",
+  "topic": "Electrolytes",
+  "question": "A client has a potassium level of 6.8 mEq/L and peaked T waves on the ECG. Which action should the nurse take first?"
+ },
+ {
+  "num": "P241",
+  "topic": "Mental Health",
+  "question": "A client taking lithium for bipolar disorder reports new symptoms. Which finding suggests lithium toxicity?"
+ },
+ {
+  "num": "P242",
+  "topic": "Infection Control",
+  "question": "The nurse is caring for a client with Clostridioides difficile. Which action is most important for preventing spread?"
+ },
+ {
+  "num": "P243",
+  "topic": "Pharmacology",
+  "question": "A client on a continuous heparin infusion has bleeding gums and an aPTT well above the target range. Which medication should the nurse anticipate?"
+ },
+ {
+  "num": "P244",
+  "topic": "Respiratory",
+  "question": "The nurse teaches a client with COPD to use pursed-lip breathing. Which statement best explains why this technique helps?"
+ },
+ {
+  "num": "P245",
+  "topic": "Pediatrics",
+  "question": "A 4-year-old is drooling, has a high fever and is sitting upright leaning forward. Epiglottitis is suspected. Which action should the nurse avoid?"
  }
 ]
