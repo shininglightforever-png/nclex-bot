@@ -5,18 +5,37 @@ DAYS_SHOWN = 4
 
 
 def write_kit(path="index.html"):
-    plans = []
-    for p in sorted(glob.glob("queue/*/plan.json"), reverse=True):
+    days = {}
+    for p in sorted(glob.glob("queue/*/plan.json")):
         d = json.load(open(p))
-        if d.get("photos"):
-            plans.append(d)
-    plans = plans[:DAYS_SHOWN]
+        day = days.setdefault(d["date"], {"reels": [], "photos": []})
+        day["photos"] += d.get("photos", [])
+        day["reels"] += [it for it in d.get("items", []) if it.get("video") and not it.get("skip")]
     blocks = []
-    for d in plans:
-        cards = []
-        for ph in d["photos"]:
-            cap = html.escape(ph["caption"])
-            cards.append(f'''
+    for date in sorted(days, reverse=True)[:DAYS_SHOWN]:
+        day = days[date]
+        day["reels"].sort(key=lambda it: it["time"])
+        out = [f'<h2>{date}</h2>']
+        if day["reels"]:
+            out.append('<h3>Reels for TikTok</h3>')
+            for it in day["reels"]:
+                cap = html.escape(it["caption"])
+                out.append(f'''
+<article class="post">
+  <div class="meta"><span class="num">#{it["id"]}</span><span>post around {it["time"][11:16]}</span></div>
+  <video src="{it["video"]}" controls playsinline preload="metadata"></video>
+  <div class="row">
+    <a class="btn ghost" href="{it["video"]}" download>Save video</a>
+    <button class="btn" onclick="copyCap(this)">Copy caption</button>
+  </div>
+  <details><summary>Show caption</summary><pre>{cap}</pre></details>
+  <textarea hidden>{cap}</textarea>
+</article>''')
+        if day["photos"]:
+            out.append('<h3>Photos for your Facebook profile</h3>')
+            for ph in day["photos"]:
+                cap = html.escape(ph["caption"])
+                out.append(f'''
 <article class="post">
   <div class="meta"><span class="num">#{ph["num"]}</span><span>{html.escape(ph["topic"])} · post around {ph["time"]}</span></div>
   <img src="{ph["image"]}" alt="NCLEX question {ph["num"]}" loading="lazy">
@@ -27,8 +46,8 @@ def write_kit(path="index.html"):
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
   <textarea hidden>{cap}</textarea>
 </article>''')
-        blocks.append(f'<h2>{d["date"]}</h2>' + "".join(cards))
-    body = "".join(blocks) or "<p>No photo posts queued yet.</p>"
+        blocks.append("".join(out))
+    body = "".join(blocks) or "<p>Nothing queued yet.</p>"
     page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Daily NCLEX Posts</title>
@@ -41,14 +60,14 @@ h2{{font-size:15px;color:var(--teal);letter-spacing:.08em;text-transform:upperca
 .post{{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:14px;margin:0 0 16px}}
 .meta{{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:13px;margin-bottom:10px}}
 .num{{background:var(--teal);color:#06101e;font-weight:700;border-radius:999px;padding:2px 10px}}
-img{{width:100%;border-radius:12px;display:block}}
+img,video{{width:100%;border-radius:12px;display:block;background:#000}}\nh3{{font-size:14px;color:var(--muted);margin:18px 0 10px}}
 .row{{display:flex;gap:10px;margin-top:12px}}
 .btn{{flex:1;border:0;border-radius:12px;padding:13px;font:600 15px system-ui;background:var(--teal);color:#06101e;text-align:center;text-decoration:none;cursor:pointer}}
 .btn.ghost{{background:transparent;color:var(--teal);border:1px solid var(--teal)}}
 details{{margin-top:10px;color:var(--muted)}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
-<p class="sub">For your Facebook profile and groups. On iPhone, press and hold an image, then Save to Photos.</p>
+<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. On iPhone: press and hold an image to save it. For videos, tap Save video, then the share icon, then Save Video.</p>
 {body}
 </main>
 <script>
