@@ -46,7 +46,7 @@ def main(src, date, folder=None):
     # photo kit for the personal Facebook profile (posted by hand)
     photos = []
     pc_path = "state/photo_counter.json"
-    pnum = json.load(open(pc_path))["next"] if os.path.exists(pc_path) else 239
+    pnum = json.load(open(pc_path))["next"] if os.path.exists(pc_path) else 238
     os.makedirs(f"{out}/photos", exist_ok=True)
     for i, q in enumerate(data.get("photo_questions", [])):
         img = f"{out}/photos/{pnum:04d}.png"
