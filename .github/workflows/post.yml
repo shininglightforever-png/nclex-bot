@@ -2,7 +2,7 @@ name: Post to socials
 
 on:
   schedule:
-    - cron: "7 * * * *"   # every hour
+    - cron: "*/10 * * * *"   # every 10 min (GitHub often runs these late, so check often)
   workflow_dispatch: {}    # "Run workflow" button for testing
 
 permissions:
