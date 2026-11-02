@@ -26,30 +26,21 @@ def main(src, date):
             shutil.rmtree(os.path.join(out, d))
 
     items = []
-    used_videos = set()
-    for i, m in enumerate(made):
-        cap = f"{m['q'].get('caption', '')}\n\nAnswer on slide 2 👉\n\n{HASHTAGS}"
-        item = {
-            "id": f"{m['num']:04d}",
-            "time": f"{date}T{POST_TIMES[i % len(POST_TIMES)]}:00",
-            "images": m["feed"],
-            "caption": cap,
-            "platforms": ["ig_carousel", "fb_photos"],
-            "topic": m["q"].get("topic", ""),
-            "question": m["q"]["question"],
-        }
-        items.append(item)
+    vids = []
+    for m in made:
         v = m.get("video")
-        if v and v not in used_videos:
-            used_videos.add(v)
-            vcap = (f"Can you get both? Pause and lock in your answers 🧠\n\n{HASHTAGS}")
-            items.append({
-                "id": os.path.basename(v).replace("_video.mp4", "") + "v",
-                "time": f"{date}T{POST_TIMES[i % len(POST_TIMES)]}:00",
-                "video": v,
-                "caption": vcap,
-                "platforms": ["tiktok_inbox", "ig_reel", "fb_reel"],
-            })
+        if v and v not in [x[0] for x in vids]:
+            vids.append((v, m))
+    for i, (v, m) in enumerate(vids):
+        cap = (f"{m['q'].get('caption', '')}\n\nPause and lock in both answers before the reveal 🧠"
+               f"\n\n{HASHTAGS}")
+        items.append({
+            "id": os.path.basename(v).replace("_video.mp4", ""),
+            "time": f"{date}T{POST_TIMES[i % len(POST_TIMES)]}:00",
+            "video": v,
+            "caption": cap,
+            "platforms": ["ig_reel", "fb_reel", "tiktok_inbox"],
+        })
     json.dump({"date": date, "items": items}, open(f"{out}/plan.json", "w"), indent=2)
     json.dump({"next": nxt}, open(counter_path, "w"))
     # running list of every question used, so new batches never repeat
@@ -58,7 +49,7 @@ def main(src, date):
     hist += [{"num": m["num"], "topic": m["q"].get("topic", ""), "question": m["q"]["question"]}
              for m in made]
     json.dump(hist, open(hist_path, "w"), indent=1)
-    print(f"{date}: {len(made)} questions, {len(used_videos)} videos, next #{nxt}")
+    print(f"{date}: {len(made)} questions, {len(items)} reels, next #{nxt}")
 
 
 if __name__ == "__main__":

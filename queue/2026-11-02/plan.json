@@ -18,15 +18,13 @@
     },
     {
       "id": "0154-0155v",
-      "time": "2026-11-02T08:15:00",
+      "time": "2026-11-02T19:30:00",
       "video": "queue/2026-11-02/0154-0155_video.mp4",
       "caption": "Can you get both? Pause and lock in your answers \ud83e\udde0\n\n#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing",
       "platforms": [
-        "tiktok_inbox",
         "ig_reel",
         "fb_reel"
-      ],
-      "skip": true
+      ]
     },
     {
       "id": "0155",
@@ -41,7 +39,8 @@
         "fb_photos"
       ],
       "topic": "Pharmacology",
-      "question": "Which lab value is most important to monitor for a client starting warfarin therapy?"
+      "question": "Which lab value is most important to monitor for a client starting warfarin therapy?",
+      "skip": true
     }
   ]
 }
