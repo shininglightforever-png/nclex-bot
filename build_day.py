@@ -14,12 +14,12 @@ HASHTAGS = "#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenur
 POST_TIMES = ["08:15", "10:30", "12:45", "15:00", "17:15", "19:30", "21:15"]
 
 
-def main(src, date):
+def main(src, date, folder=None):
     data = json.load(open(src))
     os.makedirs("state", exist_ok=True)
     counter_path = "state/counter.json"
     start = json.load(open(counter_path))["next"] if os.path.exists(counter_path) else 154
-    out = f"queue/{date}"
+    out = f"queue/{folder or date}"
     made, nxt = render_batch(data["questions"], out, start)
     for d in os.listdir(out):
         if d.startswith("_tmp"):
@@ -53,4 +53,4 @@ def main(src, date):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)

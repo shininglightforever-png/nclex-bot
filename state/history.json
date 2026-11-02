@@ -8,5 +8,15 @@
   "num": 155,
   "topic": "Pharmacology",
   "question": "Which lab value is most important to monitor for a client starting warfarin therapy?"
+ },
+ {
+  "num": 156,
+  "topic": "Endocrine",
+  "question": "A client with type 1 diabetes is shaky and diaphoretic with a blood glucose of 52 mg/dL. The client is alert and able to swallow. What should the nurse do first?"
+ },
+ {
+  "num": 157,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with hypocalcemia?"
  }
 ]
