@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "id": "0154",
+      "time": "2026-11-02T14:30:00",
+      "images": [
+        "queue/2026-11-02/0154_feed_q.png",
+        "queue/2026-11-02/0154_feed_a.png"
+      ],
+      "caption": "Digoxin + low K? Know your toxicity signs. Comment your answer before the reveal!\n\nAnswer on slide 2 \ud83d\udc49\n\n#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing",
+      "platforms": [
+        "ig_carousel",
+        "fb_photos"
+      ],
+      "topic": "Cardiovascular",
+      "question": "A client taking digoxin has a potassium level of 3.1 mEq/L. Which finding should the nurse report first?"
+    },
+    {
+      "id": "0154-0155v",
+      "time": "2026-11-02T08:15:00",
+      "video": "queue/2026-11-02/0154-0155_video.mp4",
+      "caption": "Can you get both? Pause and lock in your answers \ud83e\udde0\n\n#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing",
+      "platforms": [
+        "tiktok_inbox",
+        "ig_reel",
+        "fb_reel"
+      ],
+      "skip": true
+    },
+    {
+      "id": "0155",
+      "time": "2026-11-02T19:30:00",
+      "images": [
+        "queue/2026-11-02/0155_feed_q.png",
+        "queue/2026-11-02/0155_feed_a.png"
+      ],
+      "caption": "Warfarin vs heparin labs trip up so many students. Which one did you pick?\n\nAnswer on slide 2 \ud83d\udc49\n\n#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing",
+      "platforms": [
+        "ig_carousel",
+        "fb_photos"
+      ],
+      "topic": "Pharmacology",
+      "question": "Which lab value is most important to monitor for a client starting warfarin therapy?"
+    }
+  ]
+}
