@@ -71,27 +71,42 @@
  },
  {
   "num": 161,
-  "topic": "Pharmacology",
+  "topic": "Cardiac",
   "question": "A client taking furosemide has these results. Which finding should the nurse report?"
  },
  {
   "num": 162,
+  "topic": "Neuro",
+  "question": "A client with a suspected stroke arrives in the ED. Which action comes first?"
+ },
+ {
+  "num": 163,
   "topic": "Maternity",
   "question": "A client receiving IV magnesium sulfate for preeclampsia has these findings. Which requires immediate action?"
  },
  {
-  "num": 163,
+  "num": 164,
   "topic": "Endocrine",
   "question": "Which statement shows the client understands teaching about levothyroxine?"
  },
  {
-  "num": 164,
-  "topic": "Safety",
+  "num": 165,
+  "topic": "Burns",
+  "question": "A client rescued from a house fire has facial burns and soot around the nose. What is the priority?"
+ },
+ {
+  "num": 166,
+  "topic": "Fire Safety",
   "question": "The nurse discovers a small fire in a client's room. What is the nurse's first action?"
  },
  {
-  "num": 165,
-  "topic": "Cardiac",
+  "num": 167,
+  "topic": "Heart Failure",
   "question": "The nurse teaches a client with heart failure about daily weights. Which weight change should the client report?"
+ },
+ {
+  "num": 168,
+  "topic": "Infection Control",
+  "question": "A client is admitted with suspected active tuberculosis. Which protection should the nurse wear?"
  }
 ]

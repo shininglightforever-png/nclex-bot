@@ -7,7 +7,7 @@ Writes queue/<date>/ with images, videos and plan.json,
 and bumps state/counter.json so numbering keeps going.
 """
 import json, os, sys, shutil
-from render import render_batch
+from reel3 import render_reel
 from photo_card import photo_card
 from kit import write_kit
 
@@ -22,23 +22,24 @@ def main(src, date, folder=None):
     counter_path = "state/counter.json"
     start = json.load(open(counter_path))["next"] if os.path.exists(counter_path) else 154
     out = f"queue/{folder or date}"
-    made, nxt = render_batch(data["questions"], out, start)
-    for d in os.listdir(out):
-        if d.startswith("_tmp"):
-            shutil.rmtree(os.path.join(out, d))
-
+    os.makedirs(out, exist_ok=True)
+    qs = data["questions"]
+    made = [{"num": start + i, "q": q} for i, q in enumerate(qs)]
+    nxt = start + len(qs)
     items = []
-    vids = []
-    for m in made:
-        v = m.get("video")
-        if v and v not in [x[0] for x in vids]:
-            vids.append((v, m))
-    for i, (v, m) in enumerate(vids):
-        cap = (f"{m['q'].get('caption', '')}\n\nPause and lock in both answers before the reveal 🧠"
+    # Ryan's original format: 3 questions per 66 second reel
+    for i in range(0, len(made) - 2, 3):
+        group = made[i:i + 3]
+        rid = f"{group[0]['num']:04d}-{group[-1]['num']:04d}"
+        v = f"{out}/{rid}_reel.mp4"
+        render_reel([g["q"] for g in group], v)
+        hook = group[0]["q"].get("caption", "3 NCLEX questions. How many can you get?")
+        cap = (f"{hook}\n\n🧠 3 NCLEX questions. Answer before the timer runs out!"
+               f"\n\n👇 How many did you get? Comment below\n\n❤️ Follow @ryan__glass for daily NCLEX practice"
                f"\n\n{HASHTAGS}")
         items.append({
-            "id": os.path.basename(v).replace("_video.mp4", ""),
-            "time": f"{date}T{POST_TIMES[i % len(POST_TIMES)]}:00",
+            "id": rid,
+            "time": f"{date}T{POST_TIMES[len(items) % len(POST_TIMES)]}:00",
             "video": v,
             "caption": cap,
             "platforms": ["ig_reel", "fb_reel"],  # add "tiktok_inbox" once TikTok is linked

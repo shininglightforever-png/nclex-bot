@@ -11,9 +11,15 @@ These rules are for whoever writes the daily questions (the nightly Claude run).
 - Avoid content that can get flagged on TikTok or Facebook: no vaginal exams, placenta previa exams, genital or sexual content, graphic wounds, self-harm or suicide scenarios, abuse scenarios, illicit drug use scenarios.
 - No em dashes or long dashes anywhere. Use commas, periods or colons.
 
-## Reel questions (fields: topic, question, options, answer, rationale, caption)
-- rationale: 2 to 3 short sentences, fits on the answer card.
-- caption: one short hook line for Instagram/Facebook Reels, no answer in it.
+## Reel questions (Ryan's original format: 3 questions per 66 second reel)
+Write questions in groups of 3 (21 per day = 7 reels). Fields:
+- qtype: short question type shown under the header, e.g. "Signs + Treatment", "Priority", "Pharmacology", "Teaching", "Safety", "Precautions", "Evaluation", "Delegation"
+- topic: short body system or area, e.g. "GI", "Cardiac", "Electrolytes", "Neuro"
+- question: under about 35 words. Options: under about 8 words each.
+- answer: A to D
+- answer_label: 2 to 5 words shown under "Answer: X", e.g. "NPO + NG tube"
+- bullets: 3 to 4 very short rationale lines (under about 8 words each)
+- caption: only on the first question of each group of 3: one short hook line, no answers
 
 ## Photo questions for the personal Facebook profile
 The card shows only the question. The answer goes in the caption, pushed down with dot lines so people comment first.
