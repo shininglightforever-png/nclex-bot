@@ -1,0 +1,31 @@
+{
+  "start_num": 154,
+  "questions": [
+    {
+      "topic": "Cardiovascular",
+      "question": "A client taking digoxin has a potassium level of 3.1 mEq/L. Which finding should the nurse report first?",
+      "options": [
+        "Mild ankle edema",
+        "Nausea and visual changes",
+        "Blood pressure 138/84 mmHg",
+        "Fatigue after ambulating"
+      ],
+      "answer": "B",
+      "rationale": "Low potassium raises the risk of digoxin toxicity. Nausea and visual changes like yellow or green halos are classic signs and need to be reported right away.",
+      "caption": "Digoxin + low K? Know your toxicity signs. Comment your answer before the reveal!"
+    },
+    {
+      "topic": "Pharmacology",
+      "question": "Which lab value is most important to monitor for a client starting warfarin therapy?",
+      "options": [
+        "aPTT",
+        "Platelet count",
+        "INR",
+        "Serum sodium"
+      ],
+      "answer": "C",
+      "rationale": "Warfarin is monitored with PT/INR. A typical target INR is 2 to 3 for most indications. aPTT is used to monitor heparin.",
+      "caption": "Warfarin vs heparin labs trip up so many students. Which one did you pick?"
+    }
+  ]
+}
