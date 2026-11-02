@@ -25,7 +25,7 @@ def write_kit(path="index.html"):
   <div class="meta"><span class="num">#{it["id"]}</span><span>post around {it["time"][11:16]}</span></div>
   <video src="{it["video"]}" controls playsinline preload="metadata"></video>
   <div class="row">
-    <a class="btn ghost" href="{it["video"]}" download>Save video</a>
+    <button class="btn ghost" onclick="saveMedia(this,'{it["video"]}')">Save to Photos</button>
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
   </div>
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
@@ -40,7 +40,7 @@ def write_kit(path="index.html"):
   <div class="meta"><span class="num">#{ph["num"]}</span><span>{html.escape(ph["topic"])} · post around {ph["time"]}</span></div>
   <img src="{ph["image"]}" alt="NCLEX question {ph["num"]}" loading="lazy">
   <div class="row">
-    <a class="btn ghost" href="{ph["image"]}" download>Save image</a>
+    <button class="btn ghost" onclick="saveMedia(this,'{ph["image"]}')">Save to Photos</button>
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
   </div>
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
@@ -67,10 +67,16 @@ img,video{{width:100%;border-radius:12px;display:block;background:#000}}\nh3{{fo
 details{{margin-top:10px;color:var(--muted)}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
-<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. On iPhone: press and hold an image to save it. For videos, tap Save video, then the share icon, then Save Video.</p>
+<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
 {body}
 </main>
 <script>
+async function saveMedia(b,url){{const old=b.textContent;b.textContent='Loading…';
+try{{const r=await fetch(url);const blob=await r.blob();
+const name=url.split('/').pop();const file=new File([blob],name,{{type:blob.type||(name.endsWith('.mp4')?'video/mp4':'image/png')}});
+if(navigator.canShare&&navigator.canShare({{files:[file]}})){{await navigator.share({{files:[file]}})}}
+else{{const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click()}}}}
+catch(e){{}} b.textContent=old}}
 function copyCap(b){{const t=b.closest('.post').querySelector('textarea').value;
 const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent='Copy caption',1500)}};
 if(navigator.clipboard){{navigator.clipboard.writeText(t).then(done)}}else{{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}}}
