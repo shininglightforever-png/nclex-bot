@@ -1,0 +1,19 @@
+name: Check connections
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Facebook Page and Instagram access
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          G=https://graph.facebook.com/v21.0
+          echo "PAGE: $(curl -s "$G/$FB_PAGE_ID?fields=name&access_token=$FB_PAGE_TOKEN")"
+          echo "IG: $(curl -s "$G/$IG_USER_ID?fields=username&access_token=$FB_PAGE_TOKEN")"
+          echo "TOKEN: $(curl -s "$G/debug_token?input_token=$FB_PAGE_TOKEN&access_token=$FB_PAGE_TOKEN" | python3 -c 'import sys,json;d=json.load(sys.stdin).get("data",{});print("type",d.get("type"),"expires_at",d.get("expires_at"),"valid",d.get("is_valid"))')"
