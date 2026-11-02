@@ -63,5 +63,35 @@
   "num": 159,
   "topic": "Delegation",
   "question": "Which task can the RN safely delegate to unlicensed assistive personnel (UAP)?"
+ },
+ {
+  "num": 160,
+  "topic": "GI",
+  "question": "A client with cirrhosis is receiving lactulose for hepatic encephalopathy. Which finding shows the medication is working?"
+ },
+ {
+  "num": 161,
+  "topic": "Pharmacology",
+  "question": "A client taking furosemide has these results. Which finding should the nurse report?"
+ },
+ {
+  "num": 162,
+  "topic": "Maternity",
+  "question": "A client receiving IV magnesium sulfate for preeclampsia has these findings. Which requires immediate action?"
+ },
+ {
+  "num": 163,
+  "topic": "Endocrine",
+  "question": "Which statement shows the client understands teaching about levothyroxine?"
+ },
+ {
+  "num": 164,
+  "topic": "Safety",
+  "question": "The nurse discovers a small fire in a client's room. What is the nurse's first action?"
+ },
+ {
+  "num": 165,
+  "topic": "Cardiac",
+  "question": "The nurse teaches a client with heart failure about daily weights. Which weight change should the client report?"
  }
 ]
