@@ -108,5 +108,145 @@
   "num": 168,
   "topic": "Infection Control",
   "question": "A client is admitted with suspected active tuberculosis. Which protection should the nurse wear?"
+ },
+ {
+  "num": 169,
+  "topic": "Respiratory",
+  "question": "A client's chest tube becomes disconnected from the drainage system. What should the nurse do first?"
+ },
+ {
+  "num": 170,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with diabetic ketoacidosis?"
+ },
+ {
+  "num": 171,
+  "topic": "Cardiac",
+  "question": "A client started on lisinopril yesterday. Which finding requires immediate action?"
+ },
+ {
+  "num": 172,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in an infant with pyloric stenosis?"
+ },
+ {
+  "num": 173,
+  "topic": "Renal",
+  "question": "Which finding shows that a client's arteriovenous fistula for hemodialysis is working?"
+ },
+ {
+  "num": 174,
+  "topic": "Mental Health",
+  "question": "A client is prescribed phenelzine, an MAOI. Which food should the client avoid?"
+ },
+ {
+  "num": 175,
+  "topic": "Cardiac",
+  "question": "Two hours after a femoral cardiac catheterization, the client reports a warm, wet feeling in the groin. What should the nurse do first?"
+ },
+ {
+  "num": 176,
+  "topic": "Infection Control",
+  "question": "A client is admitted with suspected bacterial meningitis caused by Neisseria meningitidis. Which precautions should the nurse use?"
+ },
+ {
+  "num": 177,
+  "topic": "Maternity",
+  "question": "One hour after a vaginal birth, the nurse finds the client's fundus soft and boggy. What should the nurse do first?"
+ },
+ {
+  "num": 178,
+  "topic": "Electrolytes",
+  "question": "A client has a serum sodium of 122 mEq/L and new confusion. Which action should the nurse take?"
+ },
+ {
+  "num": 179,
+  "topic": "Neuro",
+  "question": "A client with myasthenia gravis has trouble swallowing and a weak cough. What is the priority assessment?"
+ },
+ {
+  "num": 180,
+  "topic": "Endocrine",
+  "question": "A client taking metformin is scheduled for a CT scan with IV contrast. Which action should the nurse expect?"
+ },
+ {
+  "num": 181,
+  "topic": "Respiratory",
+  "question": "Which client should the nurse assess first?"
+ },
+ {
+  "num": 182,
+  "topic": "GI",
+  "question": "A client with suspected appendicitis suddenly reports that the pain is gone. What should the nurse suspect?"
+ },
+ {
+  "num": 183,
+  "topic": "Safety",
+  "question": "A client has soft wrist restraints in place. Which action by the nurse is correct?"
+ },
+ {
+  "num": 184,
+  "topic": "Respiratory",
+  "question": "A client uses albuterol and fluticasone inhalers. Which instruction is correct?"
+ },
+ {
+  "num": 185,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with Cushing syndrome?"
+ },
+ {
+  "num": 186,
+  "topic": "Peds",
+  "question": "A child is in a sickle cell pain crisis. Which intervention is the priority?"
+ },
+ {
+  "num": 187,
+  "topic": "Cardiac",
+  "question": "A client is unresponsive and pulseless. The monitor shows ventricular fibrillation. After CPR is started, what is the priority?"
+ },
+ {
+  "num": 188,
+  "topic": "Neuro",
+  "question": "Which adverse effect should the nurse teach a client taking phenytoin to watch for?"
+ },
+ {
+  "num": 189,
+  "topic": "Infection Control",
+  "question": "The nurse is leaving an isolation room. Which item of PPE should the nurse remove first?"
+ },
+ {
+  "num": "P245",
+  "topic": "Pharmacology",
+  "question": "The nurse is preparing insulin glargine for a client with diabetes. Which statement about this insulin is correct?"
+ },
+ {
+  "num": "P246",
+  "topic": "Cardiac",
+  "question": "A client is prescribed sublingual nitroglycerin for chest pain. Which instruction should the nurse include?"
+ },
+ {
+  "num": "P247",
+  "topic": "Neuro",
+  "question": "A client with a T4 spinal cord injury has a pounding headache, BP 190/104 mmHg and flushing above the injury. What should the nurse do first?"
+ },
+ {
+  "num": "P248",
+  "topic": "Respiratory",
+  "question": "A client's ABG results are pH 7.30, PaCO2 52 mmHg and HCO3 25 mEq/L. How should the nurse interpret these results?"
+ },
+ {
+  "num": "P249",
+  "topic": "Maternity",
+  "question": "An Rh-negative client has just given birth to an Rh-positive newborn. Which action should the nurse anticipate?"
+ },
+ {
+  "num": "P250",
+  "topic": "Mental Health",
+  "question": "A client with schizophrenia is starting clozapine. Which lab value is most important for the nurse to monitor?"
+ },
+ {
+  "num": "P251",
+  "topic": "Peds",
+  "question": "The nurse is teaching the parents of a child with celiac disease. Which food is safe for the child?"
  }
 ]
