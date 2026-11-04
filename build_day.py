@@ -13,7 +13,7 @@ from kit import write_kit
 
 HASHTAGS = "#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing"
 # Spread through the day (local time)
-POST_TIMES = ["08:15", "10:30", "12:45", "15:00", "17:15", "19:30", "21:15"]
+POST_TIMES = ["08:15", "10:15", "12:15", "15:15", "17:15", "19:15", "21:15"]
 
 
 def main(src, date, folder=None):
