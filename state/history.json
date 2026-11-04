@@ -248,5 +248,145 @@
   "num": "P251",
   "topic": "Peds",
   "question": "The nurse is teaching the parents of a child with celiac disease. Which food is safe for the child?"
+ },
+ {
+  "num": 190,
+  "topic": "Respiratory",
+  "question": "Two days after a hip replacement, a client has sudden sharp chest pain, dyspnea and a heart rate of 118. What should the nurse suspect?"
+ },
+ {
+  "num": 191,
+  "topic": "Pharmacology",
+  "question": "A client took a large overdose of acetaminophen. Which antidote should the nurse anticipate?"
+ },
+ {
+  "num": 192,
+  "topic": "Peds",
+  "question": "Which finding indicates dehydration in a 9-month-old infant?"
+ },
+ {
+  "num": 193,
+  "topic": "Endocrine",
+  "question": "After pituitary surgery, a client has urine output of 400 mL/hr and a urine specific gravity of 1.002. What should the nurse suspect?"
+ },
+ {
+  "num": 194,
+  "topic": "Cardiac",
+  "question": "Which finding should the nurse expect in a client with right-sided heart failure?"
+ },
+ {
+  "num": 195,
+  "topic": "Mental Health",
+  "question": "A client taking haloperidol has a temperature of 104\u00b0F, lead-pipe muscle rigidity and confusion. What should the nurse suspect?"
+ },
+ {
+  "num": 196,
+  "topic": "Renal",
+  "question": "During peritoneal dialysis, the nurse notes the outflow is cloudy. What should the nurse suspect?"
+ },
+ {
+  "num": 197,
+  "topic": "Neuro",
+  "question": "A client is having a tonic-clonic seizure. Which action should the nurse take?"
+ },
+ {
+  "num": 198,
+  "topic": "Infection Control",
+  "question": "A child is admitted with chickenpox. Which precautions should the nurse use?"
+ },
+ {
+  "num": 199,
+  "topic": "GI",
+  "question": "Which instruction should the nurse give a client with dumping syndrome after gastric surgery?"
+ },
+ {
+  "num": 200,
+  "topic": "Electrolytes",
+  "question": "Which ECG change should the nurse expect in a client with hypokalemia?"
+ },
+ {
+  "num": 201,
+  "topic": "Endocrine",
+  "question": "A client had a thyroidectomy 6 hours ago. Which finding requires immediate action?"
+ },
+ {
+  "num": 202,
+  "topic": "Maternity",
+  "question": "A client at 32 weeks of pregnancy calls the clinic. Which symptom should the nurse report right away?"
+ },
+ {
+  "num": 203,
+  "topic": "Pharmacology",
+  "question": "A client is starting spironolactone. Which product should the client avoid?"
+ },
+ {
+  "num": 204,
+  "topic": "Safety",
+  "question": "The nurse is teaching a client with right leg weakness to use a cane. Which instruction is correct?"
+ },
+ {
+  "num": 205,
+  "topic": "Respiratory",
+  "question": "The nurse teaches a client to use an incentive spirometer after surgery. Which instruction is correct?"
+ },
+ {
+  "num": 206,
+  "topic": "Cardiac",
+  "question": "A client with atrial fibrillation is started on apixaban. What is the main purpose of this medication?"
+ },
+ {
+  "num": 207,
+  "topic": "Peds",
+  "question": "When should a child with cystic fibrosis take pancreatic enzymes?"
+ },
+ {
+  "num": 208,
+  "topic": "Neuro",
+  "question": "Which finding should the nurse expect in a client with Parkinson disease?"
+ },
+ {
+  "num": 209,
+  "topic": "Delegation",
+  "question": "Which task is most appropriate for the RN to assign to an LPN?"
+ },
+ {
+  "num": 210,
+  "topic": "Musculoskeletal",
+  "question": "A client with a new arm cast has severe pain not relieved by morphine. What should the nurse suspect?"
+ },
+ {
+  "num": "P252",
+  "topic": "Pharmacology",
+  "question": "The nurse is preparing to give IV potassium chloride to a client with hypokalemia. Which action is correct?"
+ },
+ {
+  "num": "P253",
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with Addison disease?"
+ },
+ {
+  "num": "P254",
+  "topic": "Cardiac",
+  "question": "Before giving metoprolol, which finding should make the nurse hold the dose and contact the provider?"
+ },
+ {
+  "num": "P255",
+  "topic": "Respiratory",
+  "question": "A client with a chest injury is becoming more short of breath. Which finding suggests a tension pneumothorax?"
+ },
+ {
+  "num": "P256",
+  "topic": "GI",
+  "question": "A client has severe upper abdominal pain that radiates to the back. Which lab result best supports acute pancreatitis?"
+ },
+ {
+  "num": "P257",
+  "topic": "Peds",
+  "question": "By what age should a healthy infant triple the birth weight?"
+ },
+ {
+  "num": "P258",
+  "topic": "Hematology",
+  "question": "Fifteen minutes into a blood transfusion, the client has chills, fever and low back pain. What should the nurse do first?"
  }
 ]
