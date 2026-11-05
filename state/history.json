@@ -388,5 +388,145 @@
   "num": "P258",
   "topic": "Hematology",
   "question": "Fifteen minutes into a blood transfusion, the client has chills, fever and low back pain. What should the nurse do first?"
+ },
+ {
+  "num": 211,
+  "topic": "Respiratory",
+  "question": "A client having an asthma attack suddenly has no audible wheezing and very diminished breath sounds. What does this most likely mean?"
+ },
+ {
+  "num": 212,
+  "topic": "Pharmacology",
+  "question": "A client is receiving IV gentamicin. Which finding should the nurse report to the provider?"
+ },
+ {
+  "num": 213,
+  "topic": "Newborn",
+  "question": "Which newborn finding should the nurse report right away?"
+ },
+ {
+  "num": 214,
+  "topic": "Cardiac",
+  "question": "After cardiac surgery, a client has low blood pressure, jugular vein distention and muffled heart sounds. What should the nurse suspect?"
+ },
+ {
+  "num": 215,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with Graves disease?"
+ },
+ {
+  "num": 216,
+  "topic": "Safety",
+  "question": "Before giving a medication, which two identifiers should the nurse use?"
+ },
+ {
+  "num": 217,
+  "topic": "GI",
+  "question": "A nasogastric tube was just inserted for feedings. Which method best confirms placement before the first feeding?"
+ },
+ {
+  "num": 218,
+  "topic": "Neuro",
+  "question": "A client had a craniotomy to remove a brain tumor. How should the nurse position the client?"
+ },
+ {
+  "num": 219,
+  "topic": "Peds",
+  "question": "A child is diagnosed with Kawasaki disease. Which treatment should the nurse expect?"
+ },
+ {
+  "num": 220,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with hypercalcemia?"
+ },
+ {
+  "num": 221,
+  "topic": "Pharmacology",
+  "question": "A client receiving IV morphine has respirations of 7/min and is hard to arouse. Which medication should the nurse expect to give?"
+ },
+ {
+  "num": 222,
+  "topic": "Renal",
+  "question": "Which finding is a common early sign of a urinary tract infection in an older adult?"
+ },
+ {
+  "num": 223,
+  "topic": "Infection Control",
+  "question": "A client has MRSA in a surgical wound. Which precautions should the nurse use?"
+ },
+ {
+  "num": 224,
+  "topic": "Mental Health",
+  "question": "A client taking sertraline was started on tramadol. The client now has agitation, sweating, tremors and a fever. What should the nurse suspect?"
+ },
+ {
+  "num": 225,
+  "topic": "Cardiac",
+  "question": "Which finding suggests peripheral arterial disease?"
+ },
+ {
+  "num": 226,
+  "topic": "Priority",
+  "question": "After report, which client should the nurse see first?"
+ },
+ {
+  "num": 227,
+  "topic": "Respiratory",
+  "question": "The high-pressure alarm sounds on a client's ventilator. What is a common cause?"
+ },
+ {
+  "num": 228,
+  "topic": "Maternity",
+  "question": "Which food should the nurse teach a pregnant client to avoid?"
+ },
+ {
+  "num": 229,
+  "topic": "Endocrine",
+  "question": "A client with type 1 diabetes has the flu and is not eating much. Which instruction is correct?"
+ },
+ {
+  "num": 230,
+  "topic": "Hematology",
+  "question": "A client receiving chemotherapy has a platelet count of 18,000/mm3. Which action is correct?"
+ },
+ {
+  "num": 231,
+  "topic": "Musculoskeletal",
+  "question": "After a posterior total hip replacement, which instruction should the nurse give?"
+ },
+ {
+  "num": "P259",
+  "topic": "Pharmacology",
+  "question": "The nurse is teaching a client who is starting alendronate for osteoporosis. Which instruction is correct?"
+ },
+ {
+  "num": "P260",
+  "topic": "Cardiac",
+  "question": "A client arrives in the ED with chest pain. Which lab result is most specific for a myocardial infarction?"
+ },
+ {
+  "num": "P261",
+  "topic": "Respiratory",
+  "question": "The nurse is suctioning a client's tracheostomy. Which action is correct?"
+ },
+ {
+  "num": "P262",
+  "topic": "Neuro",
+  "question": "Which Glasgow Coma Scale score indicates a severe brain injury?"
+ },
+ {
+  "num": "P263",
+  "topic": "Peds",
+  "question": "A child is receiving chemotherapy for leukemia. Which vaccine should the nurse expect to hold?"
+ },
+ {
+  "num": "P264",
+  "topic": "Renal",
+  "question": "The nurse is teaching a client with chronic kidney disease about diet. Which food should the client limit?"
+ },
+ {
+  "num": "P265",
+  "topic": "Maternity",
+  "question": "The nurse is monitoring a client in labor. Which fetal heart rate is within the normal range?"
  }
 ]
