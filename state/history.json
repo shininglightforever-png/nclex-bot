@@ -528,5 +528,145 @@
   "num": "P265",
   "topic": "Maternity",
   "question": "The nurse is monitoring a client in labor. Which fetal heart rate is within the normal range?"
+ },
+ {
+  "num": 232,
+  "topic": "Pharmacology",
+  "question": "A client starts allopurinol for gout. Which instruction should the nurse give?"
+ },
+ {
+  "num": 233,
+  "topic": "Respiratory",
+  "question": "A client with chronic COPD is on 2 L/min of oxygen. Which oxygen saturation range is the usual target?"
+ },
+ {
+  "num": 234,
+  "topic": "Neuro",
+  "question": "Which finding is a hallmark of Guillain-Barr\u00e9 syndrome?"
+ },
+ {
+  "num": 235,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with hypomagnesemia?"
+ },
+ {
+  "num": 236,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in a child with intussusception?"
+ },
+ {
+  "num": 237,
+  "topic": "Safety",
+  "question": "A client is at high risk for falls. Which action should the nurse take?"
+ },
+ {
+  "num": 238,
+  "topic": "Cardiac",
+  "question": "A client with hypertension starts amlodipine. Which side effect should the nurse teach the client about?"
+ },
+ {
+  "num": 239,
+  "topic": "Endocrine",
+  "question": "Which findings should the nurse expect in a client with SIADH?"
+ },
+ {
+  "num": 240,
+  "topic": "GI",
+  "question": "The nurse assesses a client's new colostomy. Which stoma finding should the nurse report?"
+ },
+ {
+  "num": 241,
+  "topic": "Maternity",
+  "question": "When is screening for gestational diabetes usually done in a low-risk pregnancy?"
+ },
+ {
+  "num": 242,
+  "topic": "Mental Health",
+  "question": "A client on long-term haloperidol has lip smacking and tongue thrusting. What does this suggest?"
+ },
+ {
+  "num": 243,
+  "topic": "Pharmacology",
+  "question": "A client taking atorvastatin calls the clinic. Which report needs follow-up right away?"
+ },
+ {
+  "num": 244,
+  "topic": "Infection Control",
+  "question": "Which client should the nurse place in a negative pressure room?"
+ },
+ {
+  "num": 245,
+  "topic": "Renal",
+  "question": "Which finding should the nurse expect in a client with a kidney stone?"
+ },
+ {
+  "num": 246,
+  "topic": "Hematology",
+  "question": "Which instruction should the nurse give a client taking oral iron?"
+ },
+ {
+  "num": 247,
+  "topic": "Respiratory",
+  "question": "A client is about to have a thoracentesis. How should the nurse position the client?"
+ },
+ {
+  "num": 248,
+  "topic": "Peds",
+  "question": "By what age does the posterior fontanel usually close?"
+ },
+ {
+  "num": 249,
+  "topic": "Neuro",
+  "question": "Which findings should the nurse expect in a client with a left hemisphere stroke?"
+ },
+ {
+  "num": 250,
+  "topic": "Endocrine",
+  "question": "A client takes NPH insulin at 0700. When is the client most at risk for hypoglycemia?"
+ },
+ {
+  "num": 251,
+  "topic": "Cardiac",
+  "question": "A client has a heart rate of 40/min, BP 78/44 mmHg and dizziness. Which medication should the nurse anticipate first?"
+ },
+ {
+  "num": 252,
+  "topic": "Musculoskeletal",
+  "question": "The nurse teaches a client with crutches to go up stairs. Which instruction is correct?"
+ },
+ {
+  "num": "P266",
+  "topic": "Pharmacology",
+  "question": "A client is starting ciprofloxacin for a urinary tract infection. Which adverse effect should the client report right away?"
+ },
+ {
+  "num": "P267",
+  "topic": "Cardiac",
+  "question": "The nurse teaches a client with heart failure about a low-sodium diet. Which statement shows understanding?"
+ },
+ {
+  "num": "P268",
+  "topic": "Endocrine",
+  "question": "Which hemoglobin A1C result meets the criterion for a diagnosis of diabetes?"
+ },
+ {
+  "num": "P269",
+  "topic": "Neuro",
+  "question": "A client was hit in the head during a fall. Which finding suggests a basilar skull fracture?"
+ },
+ {
+  "num": "P270",
+  "topic": "Respiratory",
+  "question": "The nurse notes continuous bubbling in the water seal chamber of a client's chest tube system. What does this indicate?"
+ },
+ {
+  "num": "P271",
+  "topic": "Maternity",
+  "question": "A client at 30 weeks of pregnancy feels dizzy and lightheaded while lying flat on her back. What should the nurse do first?"
+ },
+ {
+  "num": "P272",
+  "topic": "GI",
+  "question": "The nurse teaches a client with GERD. Which instruction should the nurse include?"
  }
 ]
