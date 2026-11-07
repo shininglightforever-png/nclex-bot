@@ -668,5 +668,145 @@
   "num": "P272",
   "topic": "GI",
   "question": "The nurse teaches a client with GERD. Which instruction should the nurse include?"
+ },
+ {
+  "num": 253,
+  "topic": "Cardiac",
+  "question": "A client taking amiodarone calls the clinic. Which new symptom should the nurse report to the provider?"
+ },
+ {
+  "num": 254,
+  "topic": "Endocrine",
+  "question": "A client has a suspected pheochromocytoma. Which action should the nurse avoid?"
+ },
+ {
+  "num": 255,
+  "topic": "Infection Control",
+  "question": "A client is admitted with influenza. Which precautions should the nurse use?"
+ },
+ {
+  "num": 256,
+  "topic": "Renal",
+  "question": "A client just had a percutaneous kidney biopsy. What is the priority nursing assessment?"
+ },
+ {
+  "num": 257,
+  "topic": "Peds",
+  "question": "A toddler with croup has a barking cough and stridor at rest. Which treatment should the nurse anticipate?"
+ },
+ {
+  "num": 258,
+  "topic": "Neuro",
+  "question": "A client is receiving IV alteplase (tPA) for an ischemic stroke. Which finding means the nurse should stop the infusion?"
+ },
+ {
+  "num": 259,
+  "topic": "GI",
+  "question": "A client with a peptic ulcer suddenly has severe pain and a rigid, boardlike abdomen. What should the nurse suspect?"
+ },
+ {
+  "num": 260,
+  "topic": "Electrolytes",
+  "question": "A client has a serum sodium of 152 mEq/L. Which finding should the nurse expect?"
+ },
+ {
+  "num": 261,
+  "topic": "Newborn",
+  "question": "Why is vitamin K given to a newborn shortly after birth?"
+ },
+ {
+  "num": 262,
+  "topic": "Respiratory",
+  "question": "A client with COPD is very short of breath. Which position should the nurse help the client into?"
+ },
+ {
+  "num": 263,
+  "topic": "Pharmacology",
+  "question": "A client is starting isoniazid for tuberculosis. Which instruction should the nurse include?"
+ },
+ {
+  "num": 264,
+  "topic": "Mental Health",
+  "question": "A client is prescribed bupropion for depression. Which history should the nurse report before the first dose?"
+ },
+ {
+  "num": 265,
+  "topic": "Triage",
+  "question": "During a mass casualty event, which client should the nurse tag as immediate (red)?"
+ },
+ {
+  "num": 266,
+  "topic": "Hematology",
+  "question": "A client on heparin has a platelet count drop from 250,000 to 95,000/mm3. What should the nurse do?"
+ },
+ {
+  "num": 267,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in an infant with developmental dysplasia of the hip?"
+ },
+ {
+  "num": 268,
+  "topic": "Cardiac",
+  "question": "Which finding should the nurse expect in a client with infective endocarditis?"
+ },
+ {
+  "num": 269,
+  "topic": "Endocrine",
+  "question": "A client has taken prednisone for 6 months. Which instruction should the nurse give?"
+ },
+ {
+  "num": 270,
+  "topic": "Allergy",
+  "question": "A client has a latex allergy. Which food should the nurse ask about because of a cross-reaction?"
+ },
+ {
+  "num": 271,
+  "topic": "Musculoskeletal",
+  "question": "A client is in skeletal traction for a femur fracture. Which action is correct?"
+ },
+ {
+  "num": 272,
+  "topic": "Infection Control",
+  "question": "The nurse is teaching a client with hepatitis A. Which instruction best prevents spread to others?"
+ },
+ {
+  "num": 273,
+  "topic": "Neuro",
+  "question": "A client is diagnosed with Bell palsy. Which instruction is most important?"
+ },
+ {
+  "num": "P273",
+  "topic": "Pharmacology",
+  "question": "The nurse is teaching a client to self-inject enoxaparin from a prefilled syringe. Which instruction is correct?"
+ },
+ {
+  "num": "P274",
+  "topic": "Cardiac",
+  "question": "Which finding should the nurse expect in a client with left-sided heart failure?"
+ },
+ {
+  "num": "P275",
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with hypothyroidism?"
+ },
+ {
+  "num": "P276",
+  "topic": "Peds",
+  "question": "Which toy is best for a hospitalized 2-year-old?"
+ },
+ {
+  "num": "P277",
+  "topic": "Maternity",
+  "question": "Why should a client planning a pregnancy take folic acid?"
+ },
+ {
+  "num": "P278",
+  "topic": "Mental Health",
+  "question": "A client says, \"I can't stop shaking and I don't know why.\" Which response by the nurse is best?"
+ },
+ {
+  "num": "P279",
+  "topic": "Respiratory",
+  "question": "A client with long-term COPD has clubbing of the fingers. What does this finding suggest?"
  }
 ]
