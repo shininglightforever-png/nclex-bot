@@ -1,7 +1,7 @@
 """Builds index.html: a phone page with each day's profile photos and captions."""
 import glob, html, json
 
-DAYS_SHOWN = 4
+DAYS_SHOWN = 3  # newest days shown open; older days go in a collapsed archive
 
 
 def write_kit(path="index.html"):
@@ -11,11 +11,13 @@ def write_kit(path="index.html"):
         day = days.setdefault(d["date"], {"reels": [], "photos": []})
         day["photos"] += d.get("photos", [])
         day["reels"] += [it for it in d.get("items", []) if it.get("video") and not it.get("skip")]
-    blocks = []
-    for date in sorted(days, reverse=True)[:DAYS_SHOWN]:
+    blocks, archive = [], []
+    for idx, date in enumerate(sorted(days, reverse=True)):
+        recent = idx < DAYS_SHOWN
+        preload = "metadata" if recent else "none"
         day = days[date]
         day["reels"].sort(key=lambda it: it["time"])
-        out = [f'<h2>{date}</h2>']
+        out = [f'<h2>{date}</h2>'] if recent else []
         if day["reels"]:
             out.append('<h3>Reels for TikTok</h3>')
             for it in day["reels"]:
@@ -23,7 +25,7 @@ def write_kit(path="index.html"):
                 out.append(f'''
 <article class="post">
   <div class="meta"><span class="num">#{it["id"]}</span><span>post around {it["time"][11:16]}</span></div>
-  <video src="{it["video"]}" controls playsinline preload="metadata"></video>
+  <video src="{it["video"]}" controls playsinline preload="{preload}"></video>
   <div class="row">
     <button class="btn ghost" onclick="saveMedia(this,'{it["video"]}')">Save to Photos</button>
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
@@ -46,8 +48,16 @@ def write_kit(path="index.html"):
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
   <textarea hidden>{cap}</textarea>
 </article>''')
-        blocks.append("".join(out))
+        if recent:
+            blocks.append("".join(out))
+        else:
+            nr, npn = len(day["reels"]), len(day["photos"])
+            nums = [p["num"] for p in day["photos"]]
+            label = f"{nr} reels" + (f", photos #{min(nums)} to #{max(nums)}" if nums else "")
+            archive.append(f'<details class="day"><summary>{date} <span>{label}</span></summary>{"".join(out)}</details>')
     body = "".join(blocks) or "<p>Nothing queued yet.</p>"
+    if archive:
+        body += '<h2>Older posts</h2>' + "".join(archive)
     page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Daily NCLEX Posts</title>
@@ -64,7 +74,9 @@ img,video{{width:100%;border-radius:12px;display:block;background:#000}}\nh3{{fo
 .row{{display:flex;gap:10px;margin-top:12px}}
 .btn{{flex:1;border:0;border-radius:12px;padding:13px;font:600 15px system-ui;background:var(--teal);color:#06101e;text-align:center;text-decoration:none;cursor:pointer}}
 .btn.ghost{{background:transparent;color:var(--teal);border:1px solid var(--teal)}}
-details{{margin-top:10px;color:var(--muted)}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
+details{{margin-top:10px;color:var(--muted)}}
+.day{{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px}}
+.day>summary{{color:var(--text);font-weight:600;cursor:pointer}}.day>summary span{{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
 <p class="sub">Reels for TikTok, photos for your Facebook profile and groups. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
