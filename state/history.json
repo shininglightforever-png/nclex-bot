@@ -808,5 +808,145 @@
   "num": "P279",
   "topic": "Respiratory",
   "question": "A client with long-term COPD has clubbing of the fingers. What does this finding suggest?"
+ },
+ {
+  "num": 274,
+  "topic": "Cardiac",
+  "question": "A client in SVT is prescribed adenosine 6 mg IV. How should the nurse give it?"
+ },
+ {
+  "num": 275,
+  "topic": "Peds Renal",
+  "question": "Which findings should the nurse expect in a child with nephrotic syndrome?"
+ },
+ {
+  "num": 276,
+  "topic": "Neuro",
+  "question": "A client with Alzheimer disease starts donepezil. Which adverse effect should the nurse monitor for?"
+ },
+ {
+  "num": 277,
+  "topic": "Respiratory",
+  "question": "A client with pneumonia has new antibiotic orders. What should the nurse do first?"
+ },
+ {
+  "num": 278,
+  "topic": "GI",
+  "question": "A client with ascites is scheduled for a paracentesis. Which action should the nurse take before the procedure?"
+ },
+ {
+  "num": 279,
+  "topic": "Electrolytes",
+  "question": "A severely malnourished client starts tube feedings. Which lab is most important to monitor for refeeding syndrome?"
+ },
+ {
+  "num": 280,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with hyperosmolar hyperglycemic state (HHS)?"
+ },
+ {
+  "num": 281,
+  "topic": "Maternity",
+  "question": "A client in labor on an oxytocin infusion has contractions every 90 seconds and late decelerations. What should the nurse do first?"
+ },
+ {
+  "num": 282,
+  "topic": "Infection Control",
+  "question": "A child is admitted with pertussis. Which precautions should the nurse use?"
+ },
+ {
+  "num": 283,
+  "topic": "Pharmacology",
+  "question": "A client is starting rifampin. Which statement shows understanding of the teaching?"
+ },
+ {
+  "num": 284,
+  "topic": "Peds",
+  "question": "A toddler with tetralogy of Fallot becomes very cyanotic and irritable while crying. What should the nurse do first?"
+ },
+ {
+  "num": 285,
+  "topic": "Safety",
+  "question": "A client is scheduled for an MRI. Which question is most important for the nurse to ask?"
+ },
+ {
+  "num": 286,
+  "topic": "Cardiac",
+  "question": "A client with an abdominal aortic aneurysm suddenly has severe back pain, BP 82/50 mmHg and HR 128. What should the nurse suspect?"
+ },
+ {
+  "num": 287,
+  "topic": "Mental Health",
+  "question": "A client is prescribed buspirone for anxiety. Which statement shows understanding?"
+ },
+ {
+  "num": 288,
+  "topic": "Musculoskeletal",
+  "question": "One day after a femur fracture, a client is confused and short of breath. Which finding suggests fat embolism?"
+ },
+ {
+  "num": 289,
+  "topic": "Hematology",
+  "question": "A client has an absolute neutrophil count of 400/mm3. Which action by the nurse is correct?"
+ },
+ {
+  "num": 290,
+  "topic": "Neuro",
+  "question": "A client has a seizure lasting more than 5 minutes. Which medication should the nurse expect to give first?"
+ },
+ {
+  "num": 291,
+  "topic": "GI",
+  "question": "Which finding should the nurse expect in a client with ulcerative colitis?"
+ },
+ {
+  "num": 292,
+  "topic": "Respiratory",
+  "question": "Which finding is a hallmark of acute respiratory distress syndrome (ARDS)?"
+ },
+ {
+  "num": 293,
+  "topic": "Endocrine",
+  "question": "When should the nurse give insulin lispro to a client with diabetes?"
+ },
+ {
+  "num": 294,
+  "topic": "Peds",
+  "question": "A child is admitted with a suspected Wilms tumor. Which action is most important?"
+ },
+ {
+  "num": "P280",
+  "topic": "Pharmacology",
+  "question": "A client is prescribed metronidazole for an infection. Which instruction should the nurse include?"
+ },
+ {
+  "num": "P281",
+  "topic": "Cardiac",
+  "question": "Which finding should the nurse expect in a client with a deep vein thrombosis (DVT) of the left leg?"
+ },
+ {
+  "num": "P282",
+  "topic": "Respiratory",
+  "question": "A client exposed to a faulty home heater has a headache and confusion. SpO2 is 99%. What should the nurse do first?"
+ },
+ {
+  "num": "P283",
+  "topic": "Maternity",
+  "question": "At 20 weeks of pregnancy, where should the nurse expect to palpate the fundus?"
+ },
+ {
+  "num": "P284",
+  "topic": "Mental Health",
+  "question": "A client in an acute manic episode will not sit down for meals. Which intervention is best?"
+ },
+ {
+  "num": "P285",
+  "topic": "Safety",
+  "question": "The nurse is teaching a client who uses oxygen at home. Which instruction is correct?"
+ },
+ {
+  "num": "P286",
+  "topic": "Peds",
+  "question": "A newborn has not passed meconium 48 hours after birth and has a distended abdomen. What should the nurse suspect?"
  }
 ]
