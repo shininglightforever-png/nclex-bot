@@ -948,5 +948,145 @@
   "num": "P286",
   "topic": "Peds",
   "question": "A newborn has not passed meconium 48 hours after birth and has a distended abdomen. What should the nurse suspect?"
+ },
+ {
+  "num": 295,
+  "topic": "Cardiac",
+  "question": "A client just had a permanent pacemaker placed. Which instruction should the nurse include?"
+ },
+ {
+  "num": 296,
+  "topic": "Renal",
+  "question": "Two weeks after strep throat, a child is diagnosed with acute glomerulonephritis. Which finding should the nurse expect?"
+ },
+ {
+  "num": 297,
+  "topic": "Pharmacology",
+  "question": "A client is starting carbamazepine for seizures. Which lab should the nurse monitor most closely?"
+ },
+ {
+  "num": 298,
+  "topic": "Endocrine",
+  "question": "A client with type 2 diabetes starts glipizide. Which adverse effect should the nurse teach the client to watch for?"
+ },
+ {
+  "num": 299,
+  "topic": "Peds",
+  "question": "Which vaccine is routinely given to a healthy newborn before hospital discharge?"
+ },
+ {
+  "num": 300,
+  "topic": "Infection Control",
+  "question": "The nurse's hands are visibly soiled after client care. Which hand hygiene method is correct?"
+ },
+ {
+  "num": 301,
+  "topic": "Neuro",
+  "question": "Which finding should the nurse expect in a client with multiple sclerosis?"
+ },
+ {
+  "num": 302,
+  "topic": "Respiratory",
+  "question": "What is the usual maximum oxygen flow rate for a standard nasal cannula?"
+ },
+ {
+  "num": 303,
+  "topic": "Maternity",
+  "question": "Which finding is a positive (certain) sign of pregnancy?"
+ },
+ {
+  "num": 304,
+  "topic": "Electrolytes",
+  "question": "Which client is most at risk for hypokalemia?"
+ },
+ {
+  "num": 305,
+  "topic": "Mental Health",
+  "question": "A client with OCD washes hands for 30 minutes before every group session. What should the nurse do first?"
+ },
+ {
+  "num": 306,
+  "topic": "GI",
+  "question": "A client has a small bowel obstruction with vomiting and a distended abdomen. Which treatment should the nurse expect?"
+ },
+ {
+  "num": 307,
+  "topic": "Priority",
+  "question": "After report, which client should the nurse see first?"
+ },
+ {
+  "num": 308,
+  "topic": "Hematology",
+  "question": "Which finding should the nurse expect in a client with pernicious anemia?"
+ },
+ {
+  "num": 309,
+  "topic": "Pharmacology",
+  "question": "A client is prescribed sumatriptan for migraines. Which history should the nurse report before the first dose?"
+ },
+ {
+  "num": 310,
+  "topic": "Cardiac",
+  "question": "A client has BP 228/132 mmHg, a severe headache and blurred vision. What is the usual goal in the first hour?"
+ },
+ {
+  "num": 311,
+  "topic": "Peds",
+  "question": "A child had a tonsillectomy this morning. Which finding suggests bleeding?"
+ },
+ {
+  "num": 312,
+  "topic": "Musculoskeletal",
+  "question": "Which finding should the nurse expect in a client with rheumatoid arthritis?"
+ },
+ {
+  "num": 313,
+  "topic": "Endocrine",
+  "question": "A client with diabetes insipidus receives desmopressin. Which finding shows the medication is working?"
+ },
+ {
+  "num": 314,
+  "topic": "Infection Control",
+  "question": "A nurse gets stuck by a used needle. What should the nurse do first?"
+ },
+ {
+  "num": 315,
+  "topic": "Respiratory",
+  "question": "Which finding is an early sign of hypoxia?"
+ },
+ {
+  "num": "P287",
+  "topic": "Pharmacology",
+  "question": "The nurse is mixing regular insulin and NPH insulin in one syringe. Which step is correct?"
+ },
+ {
+  "num": "P288",
+  "topic": "Cardiac",
+  "question": "The nurse sees sawtooth waves between QRS complexes on the cardiac monitor. Which rhythm is this?"
+ },
+ {
+  "num": "P289",
+  "topic": "Renal",
+  "question": "Which lab value is the best indicator of kidney function?"
+ },
+ {
+  "num": "P290",
+  "topic": "Peds",
+  "question": "At what age does a healthy child usually begin walking alone?"
+ },
+ {
+  "num": "P291",
+  "topic": "Neuro",
+  "question": "A client with Parkinson disease starts carbidopa-levodopa. Which instruction should the nurse include?"
+ },
+ {
+  "num": "P292",
+  "topic": "Maternity",
+  "question": "Which vital sign change is expected during a normal pregnancy?"
+ },
+ {
+  "num": "P293",
+  "topic": "Mental Health",
+  "question": "A client who is angry at a coworker tells the nurse, \"My coworker hates me.\" Which defense mechanism is this?"
  }
 ]
