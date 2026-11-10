@@ -1088,5 +1088,145 @@
   "num": "P293",
   "topic": "Mental Health",
   "question": "A client who is angry at a coworker tells the nurse, \"My coworker hates me.\" Which defense mechanism is this?"
+ },
+ {
+  "num": 316,
+  "topic": "Cardiac",
+  "question": "Which finding should the nurse expect in a client with acute pericarditis?"
+ },
+ {
+  "num": 317,
+  "topic": "Endocrine",
+  "question": "A client taking propylthiouracil (PTU) for hyperthyroidism calls the clinic. Which report needs follow-up right away?"
+ },
+ {
+  "num": 318,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in an infant with hydrocephalus?"
+ },
+ {
+  "num": 319,
+  "topic": "Respiratory",
+  "question": "A client is wearing a nonrebreather mask at 12 L/min. Which finding requires the nurse to take action?"
+ },
+ {
+  "num": 320,
+  "topic": "Renal",
+  "question": "A client taking phenazopyridine for bladder pain reports orange urine. What should the nurse tell the client?"
+ },
+ {
+  "num": 321,
+  "topic": "Mental Health",
+  "question": "A client starts fluoxetine for depression. Which statement shows understanding of the teaching?"
+ },
+ {
+  "num": 322,
+  "topic": "Neuro",
+  "question": "A client has trigeminal neuralgia. Which instruction should the nurse include?"
+ },
+ {
+  "num": 323,
+  "topic": "Renal",
+  "question": "After a TURP, a client on continuous bladder irrigation has bright red urine with clots. What should the nurse do?"
+ },
+ {
+  "num": 324,
+  "topic": "Infection Control",
+  "question": "Which client should the charge nurse avoid assigning to a pregnant nurse?"
+ },
+ {
+  "num": 325,
+  "topic": "GI",
+  "question": "Which finding should the nurse expect in a client with acute cholecystitis?"
+ },
+ {
+  "num": 326,
+  "topic": "Renal",
+  "question": "A client with chronic kidney disease is prescribed sevelamer. When should the client take it?"
+ },
+ {
+  "num": 327,
+  "topic": "Maternity",
+  "question": "A client in the first trimester has morning nausea. Which instruction should the nurse give?"
+ },
+ {
+  "num": 328,
+  "topic": "Hematology",
+  "question": "Which finding should the nurse expect in a client with iron deficiency anemia?"
+ },
+ {
+  "num": 329,
+  "topic": "Labs",
+  "question": "The nurse reviews morning labs. Which result requires immediate action?"
+ },
+ {
+  "num": 330,
+  "topic": "Safety",
+  "question": "An order reads \"Insulin regular 10 U subcut.\" Why should the nurse clarify it?"
+ },
+ {
+  "num": 331,
+  "topic": "Respiratory",
+  "question": "After intubation, which finding suggests the endotracheal tube is in the right mainstem bronchus?"
+ },
+ {
+  "num": 332,
+  "topic": "Pharmacology",
+  "question": "A client is starting clopidogrel after a cardiac stent. Which instruction should the nurse include?"
+ },
+ {
+  "num": 333,
+  "topic": "Peds",
+  "question": "A child with hemophilia A has a bleeding knee joint. Which product should the nurse expect to give?"
+ },
+ {
+  "num": 334,
+  "topic": "Shock",
+  "question": "Which finding is an early sign of hypovolemic shock?"
+ },
+ {
+  "num": 335,
+  "topic": "Endocrine",
+  "question": "A client with diabetes is unconscious with a glucose of 38 mg/dL and no IV access. What should the nurse give?"
+ },
+ {
+  "num": 336,
+  "topic": "Musculoskeletal",
+  "question": "A client has osteoporosis. Which exercise should the nurse recommend?"
+ },
+ {
+  "num": "P294",
+  "topic": "Pharmacology",
+  "question": "A client taking warfarin asks about diet. Which instruction should the nurse give?"
+ },
+ {
+  "num": "P295",
+  "topic": "Cardiac",
+  "question": "Which ECG change should the nurse recognize as a sign of an acute myocardial infarction (STEMI)?"
+ },
+ {
+  "num": "P296",
+  "topic": "Infection Control",
+  "question": "A hospital nurse has a TB skin test read at 48 to 72 hours. Which result is positive?"
+ },
+ {
+  "num": "P297",
+  "topic": "Endocrine",
+  "question": "Which finding suggests hyperglycemia rather than hypoglycemia?"
+ },
+ {
+  "num": "P298",
+  "topic": "Peds",
+  "question": "Which action helps protect the suture line after cleft lip repair in an infant?"
+ },
+ {
+  "num": "P299",
+  "topic": "Neuro",
+  "question": "The nurse asks a client to shrug both shoulders against resistance. Which cranial nerve is being tested?"
+ },
+ {
+  "num": "P300",
+  "topic": "Safety",
+  "question": "A client has dysphagia after a stroke. Which action helps prevent aspiration during meals?"
  }
 ]
