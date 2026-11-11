@@ -9,10 +9,11 @@ These rules are for whoever writes the daily questions (the nightly Claude run).
 - Spread topics: cardiac, respiratory, endocrine, renal, neuro, GI, electrolytes, pharmacology, priority/delegation, infection control, peds, maternity (non-graphic), mental health, safety.
 - Never repeat a question already in state/history.json. Vary the drugs and conditions too.
 - Avoid content that can get flagged on TikTok or Facebook: no vaginal exams, placenta previa exams, genital or sexual content, graphic wounds, self-harm or suicide scenarios, abuse scenarios, illicit drug use scenarios.
+- Spread the correct answer across A, B, C and D. In each day's batch every letter should be correct about equally often, and never the same letter more than 2 times in a row.
 - No em dashes or long dashes anywhere. Use commas, periods or colons.
 
 ## Reel questions (Ryan's original format: 3 questions per 66 second reel)
-Write questions in groups of 3 (21 per day = 7 reels). Fields:
+Write questions in groups of 3 (33 per day = 11 reels, including 4 overnight). Fields:
 - qtype: short question type shown under the header, e.g. "Signs + Treatment", "Priority", "Pharmacology", "Teaching", "Safety", "Precautions", "Evaluation", "Delegation"
 - topic: short body system or area, e.g. "GI", "Cardiac", "Electrolytes", "Neuro"
 - question: under about 35 words. Options: under about 8 words each.

@@ -1368,5 +1368,65 @@
   "num": "P307",
   "topic": "Mental Health",
   "question": "An older adult is newly confused. Which finding suggests delirium rather than dementia?"
+ },
+ {
+  "num": 358,
+  "topic": "Neuro",
+  "question": "A client with a T4 spinal cord injury has a pounding headache, flushed face and BP 210/110 mmHg. What should the nurse do first?"
+ },
+ {
+  "num": 359,
+  "topic": "Musculoskeletal",
+  "question": "A client in a new leg cast reports severe pain that does not improve with opioids. What should the nurse suspect?"
+ },
+ {
+  "num": 360,
+  "topic": "Eye",
+  "question": "A client with angle-closure glaucoma has new medication orders. Which order should the nurse question?"
+ },
+ {
+  "num": 361,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with thyroid storm?"
+ },
+ {
+  "num": 362,
+  "topic": "Maternity",
+  "question": "Right after an epidural, a laboring client's BP drops from 124/78 to 88/50 mmHg. What should the nurse do first?"
+ },
+ {
+  "num": 363,
+  "topic": "Burns",
+  "question": "An adult has burns covering the entire front and back of both arms. Using the rule of nines, what percent is burned?"
+ },
+ {
+  "num": 364,
+  "topic": "Endocrine",
+  "question": "A client with diabetes starts propranolol. Which instruction is most important?"
+ },
+ {
+  "num": 365,
+  "topic": "Neuro",
+  "question": "A client has expressive (Broca) aphasia after a stroke. Which approach should the nurse use?"
+ },
+ {
+  "num": 366,
+  "topic": "Peds",
+  "question": "A parent asks how to lower the risk of ear infections in her infant. Which instruction should the nurse give?"
+ },
+ {
+  "num": 367,
+  "topic": "Nutrition",
+  "question": "A client's TPN bag runs out and the new bag is not ready. What should the nurse hang?"
+ },
+ {
+  "num": 368,
+  "topic": "GI",
+  "question": "Which instruction is most important for a client with a new ileostomy?"
+ },
+ {
+  "num": 369,
+  "topic": "Oncology",
+  "question": "A client has neutropenia after chemotherapy. Which visitor item should the nurse remove from the room?"
  }
 ]

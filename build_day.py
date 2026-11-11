@@ -12,8 +12,10 @@ from photo_card import photo_card
 from kit import write_kit
 
 HASHTAGS = "#nclex #nclexprep #nursingstudent #nursingschool #nclexrn #futurenurse #nursing"
-# Spread through the day (local time)
-POST_TIMES = ["08:15", "10:15", "12:15", "15:15", "17:15", "19:15", "21:15"]
+# Reels: every slot of the day including overnight (local time)
+POST_TIMES = ["01:15", "03:15", "05:15", "08:15", "10:15", "12:15", "15:15", "17:15", "19:15", "21:15", "23:15"]
+# Suggested times for the hand-posted profile photos
+PHOTO_TIMES = ["08:15", "10:15", "12:15", "15:15", "17:15", "19:15", "21:15"]
 
 
 def main(src, date, folder=None):
@@ -53,7 +55,7 @@ def main(src, date, folder=None):
         img = f"{out}/photos/{pnum:04d}.png"
         photo_card(q, pnum).save(img)
         photos.append({"num": pnum, "image": img, "topic": q.get("topic", ""),
-                       "time": POST_TIMES[i % len(POST_TIMES)],
+                       "time": PHOTO_TIMES[i % len(PHOTO_TIMES)],
                        "question": q["question"],
                        "caption": q["fb_caption"].replace("{NUM}", str(pnum))})
         pnum += 1
