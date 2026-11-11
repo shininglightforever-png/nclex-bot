@@ -1228,5 +1228,145 @@
   "num": "P300",
   "topic": "Safety",
   "question": "A client has dysphagia after a stroke. Which action helps prevent aspiration during meals?"
+ },
+ {
+  "num": 337,
+  "topic": "Pharmacology",
+  "question": "A client's norepinephrine IV infiltrates, and the site is cool and pale. Which medication should the nurse anticipate?"
+ },
+ {
+  "num": 338,
+  "topic": "Respiratory",
+  "question": "A client with asthma has a peak flow reading that is 65% of personal best. What does this mean?"
+ },
+ {
+  "num": 339,
+  "topic": "Peds",
+  "question": "A parent asks what to give a 6-year-old with flu symptoms and a fever. Which medication should the nurse warn against?"
+ },
+ {
+  "num": 340,
+  "topic": "Renal",
+  "question": "A client with chronic kidney disease receives epoetin alfa. Which finding should the nurse report?"
+ },
+ {
+  "num": 341,
+  "topic": "Neuro",
+  "question": "A client has a halo vest after a cervical spine fracture. Which item must stay with the client at all times?"
+ },
+ {
+  "num": 342,
+  "topic": "Maternity",
+  "question": "A client has a nonstress test at 36 weeks. Which result is reactive?"
+ },
+ {
+  "num": 343,
+  "topic": "Infection Control",
+  "question": "A child is admitted with measles (rubeola). Which precautions should the nurse use?"
+ },
+ {
+  "num": 344,
+  "topic": "Endocrine",
+  "question": "Which foot care instruction is correct for a client with diabetes?"
+ },
+ {
+  "num": 345,
+  "topic": "Hematology",
+  "question": "The nurse is preparing to hang packed red blood cells. Which IV solution should be used with the blood?"
+ },
+ {
+  "num": 346,
+  "topic": "Musculoskeletal",
+  "question": "A client just had a plaster cast applied. How should the nurse handle the wet cast?"
+ },
+ {
+  "num": 347,
+  "topic": "Mental Health",
+  "question": "A client newly diagnosed with cancer says, \"Why is this happening to me?\" Which response by the nurse is best?"
+ },
+ {
+  "num": 348,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with a serum magnesium of 4.2 mg/dL?"
+ },
+ {
+  "num": 349,
+  "topic": "GI",
+  "question": "A client just had a percutaneous liver biopsy. How should the nurse position the client?"
+ },
+ {
+  "num": 350,
+  "topic": "Safety",
+  "question": "The nurse realizes a client received the wrong medication. What should the nurse do first?"
+ },
+ {
+  "num": 351,
+  "topic": "Peds",
+  "question": "The nurse is giving ear drops to a 2-year-old. How should the nurse position the ear?"
+ },
+ {
+  "num": 352,
+  "topic": "Cardiac",
+  "question": "A client with heart failure has a BNP of 900 pg/mL. What does this result suggest?"
+ },
+ {
+  "num": 353,
+  "topic": "Oncology",
+  "question": "A client started chemotherapy for leukemia yesterday. Which lab result suggests tumor lysis syndrome?"
+ },
+ {
+  "num": 354,
+  "topic": "Immune",
+  "question": "After a bee sting, a client has wheezing, hives and throat tightness. What should the nurse give first?"
+ },
+ {
+  "num": 355,
+  "topic": "Pharmacology",
+  "question": "A client is starting hydroxychloroquine for lupus. Which teaching is most important?"
+ },
+ {
+  "num": 356,
+  "topic": "Neuro",
+  "question": "A client with Meniere disease asks about diet. Which instruction should the nurse give?"
+ },
+ {
+  "num": 357,
+  "topic": "Skin",
+  "question": "Which Braden Scale score shows the highest risk for a pressure injury?"
+ },
+ {
+  "num": "P301",
+  "topic": "Pharmacology",
+  "question": "A client receives IV vancomycin every 12 hours. When should the nurse draw the trough level?"
+ },
+ {
+  "num": "P302",
+  "topic": "Cardiac",
+  "question": "Where should the nurse place the stethoscope to best hear the mitral valve?"
+ },
+ {
+  "num": "P303",
+  "topic": "Respiratory",
+  "question": "Which assessment finding best shows that a client needs airway suctioning?"
+ },
+ {
+  "num": "P304",
+  "topic": "Endocrine",
+  "question": "Which lab results should the nurse expect in a client with primary hyperparathyroidism?"
+ },
+ {
+  "num": "P305",
+  "topic": "Peds",
+  "question": "Parents ask how long their toddler should ride in a rear-facing car seat. Which response is best?"
+ },
+ {
+  "num": "P306",
+  "topic": "Maternity",
+  "question": "A client at 30 weeks of pregnancy is in preterm labor. Which medication helps the baby's lungs mature?"
+ },
+ {
+  "num": "P307",
+  "topic": "Mental Health",
+  "question": "An older adult is newly confused. Which finding suggests delirium rather than dementia?"
  }
 ]
