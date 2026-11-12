@@ -1428,5 +1428,205 @@
   "num": 369,
   "topic": "Oncology",
   "question": "A client has neutropenia after chemotherapy. Which visitor item should the nurse remove from the room?"
+ },
+ {
+  "num": 370,
+  "topic": "Neuro",
+  "question": "After a head injury, a client was briefly unconscious, then woke and talked normally. One hour later the client is very drowsy. What should the nurse suspect?"
+ },
+ {
+  "num": 371,
+  "topic": "Electrolytes",
+  "question": "A client with hypokalemia is told to eat more potassium. Which food is the best source?"
+ },
+ {
+  "num": 372,
+  "topic": "Infection Control",
+  "question": "The nurse sets up a sterile field. Which action keeps the field sterile?"
+ },
+ {
+  "num": 373,
+  "topic": "Endocrine",
+  "question": "A client with type 1 diabetes plans to jog. Blood glucose is 280 mg/dL with ketones in the urine. What should the nurse advise?"
+ },
+ {
+  "num": 374,
+  "topic": "Respiratory",
+  "question": "Which factor can cause a falsely low pulse oximetry reading?"
+ },
+ {
+  "num": 375,
+  "topic": "Musculoskeletal",
+  "question": "A client had an above-the-knee amputation 2 days ago. Which action helps prevent a hip flexion contracture?"
+ },
+ {
+  "num": 376,
+  "topic": "Antibiotics",
+  "question": "A client is starting doxycycline. Which instruction should the nurse include?"
+ },
+ {
+  "num": 377,
+  "topic": "Newborn",
+  "question": "Which respiratory rate is normal for a healthy newborn at rest?"
+ },
+ {
+  "num": 378,
+  "topic": "Neuro",
+  "question": "After a stroke, a client cannot see the right half of the visual field. Which action by the nurse is best?"
+ },
+ {
+  "num": 379,
+  "topic": "Cardiac",
+  "question": "A client has Raynaud phenomenon. Which instruction should the nurse give?"
+ },
+ {
+  "num": 380,
+  "topic": "GI",
+  "question": "When should a client take omeprazole for the best effect?"
+ },
+ {
+  "num": 381,
+  "topic": "Communication",
+  "question": "The nurse receives a telephone order from a provider. What should the nurse do?"
+ },
+ {
+  "num": 382,
+  "topic": "Hematology",
+  "question": "Which lab results should the nurse expect in a client with disseminated intravascular coagulation (DIC)?"
+ },
+ {
+  "num": 383,
+  "topic": "Peds",
+  "question": "The school nurse screens a child for scoliosis. How should the child be positioned?"
+ },
+ {
+  "num": 384,
+  "topic": "Cardiac",
+  "question": "A client with hypertension is learning the DASH diet. Which meal choice fits best?"
+ },
+ {
+  "num": 385,
+  "topic": "Renal",
+  "question": "Which findings should the nurse expect in a client with acute pyelonephritis?"
+ },
+ {
+  "num": 386,
+  "topic": "Mental Health",
+  "question": "A client taking haloperidol suddenly has a twisted neck and eyes rolled upward. Which medication should the nurse expect to give?"
+ },
+ {
+  "num": 387,
+  "topic": "Peds",
+  "question": "The nurse is giving CPR to an infant. How deep should chest compressions be?"
+ },
+ {
+  "num": 388,
+  "topic": "GI",
+  "question": "Which finding suggests bleeding in the upper GI tract?"
+ },
+ {
+  "num": 389,
+  "topic": "Respiratory",
+  "question": "A client with obstructive sleep apnea starts CPAP. Which statement shows understanding?"
+ },
+ {
+  "num": 390,
+  "topic": "Mental Health",
+  "question": "A client with dementia says, \"I need to go home and feed my children.\" Which response is best?"
+ },
+ {
+  "num": 391,
+  "topic": "Renal",
+  "question": "A client is starting tamsulosin for an enlarged prostate. Which instruction is most important?"
+ },
+ {
+  "num": 392,
+  "topic": "Eye",
+  "question": "Which finding should the nurse expect in a client with macular degeneration?"
+ },
+ {
+  "num": 393,
+  "topic": "Infection Control",
+  "question": "After giving an injection, how should the nurse handle the used needle?"
+ },
+ {
+  "num": 394,
+  "topic": "Endocrine",
+  "question": "Which finding should the nurse expect in a client with acromegaly?"
+ },
+ {
+  "num": 395,
+  "topic": "Pharmacology",
+  "question": "A client is very sedated after IV midazolam. Which medication reverses it?"
+ },
+ {
+  "num": 396,
+  "topic": "Newborn",
+  "question": "A newborn has visible jaundice at 12 hours of age. What does this suggest?"
+ },
+ {
+  "num": 397,
+  "topic": "Musculoskeletal",
+  "question": "Which finding should the nurse expect in a client with osteoarthritis?"
+ },
+ {
+  "num": 398,
+  "topic": "Peds",
+  "question": "When should a child take methylphenidate for ADHD?"
+ },
+ {
+  "num": 399,
+  "topic": "Electrolytes",
+  "question": "Which IV fluid is isotonic?"
+ },
+ {
+  "num": 400,
+  "topic": "Oncology",
+  "question": "A client getting external radiation has skin markings on the chest. Which instruction is correct?"
+ },
+ {
+  "num": 401,
+  "topic": "Infection Control",
+  "question": "Which action best prevents a catheter-associated urinary tract infection?"
+ },
+ {
+  "num": 402,
+  "topic": "Eye",
+  "question": "After cataract surgery, which instruction should the nurse give?"
+ },
+ {
+  "num": "P308",
+  "topic": "Pharmacology",
+  "question": "A client takes methotrexate once a week for rheumatoid arthritis. Which instruction should the nurse include?"
+ },
+ {
+  "num": "P309",
+  "topic": "Cardiac",
+  "question": "Which finding suggests chronic venous insufficiency in the legs?"
+ },
+ {
+  "num": "P310",
+  "topic": "Respiratory",
+  "question": "A client with asthma is prescribed montelukast. Which statement shows understanding of the teaching?"
+ },
+ {
+  "num": "P311",
+  "topic": "Endocrine",
+  "question": "The nurse teaches a client how to store insulin at home. Which instruction is correct?"
+ },
+ {
+  "num": "P312",
+  "topic": "Peds",
+  "question": "A child has phenylketonuria (PKU). Which item should the parents avoid giving the child?"
+ },
+ {
+  "num": "P313",
+  "topic": "Maternity",
+  "question": "A postpartum client who is not immune to rubella receives the MMR vaccine. Which instruction is most important?"
+ },
+ {
+  "num": "P314",
+  "topic": "Mental Health",
+  "question": "A client is having a panic attack in the dayroom. What should the nurse do first?"
  }
 ]
