@@ -1628,5 +1628,205 @@
   "num": "P314",
   "topic": "Mental Health",
   "question": "A client is having a panic attack in the dayroom. What should the nurse do first?"
+ },
+ {
+  "num": 403,
+  "topic": "Acid-Base",
+  "question": "Which ABG result shows uncompensated metabolic alkalosis?"
+ },
+ {
+  "num": 404,
+  "topic": "Cardiac",
+  "question": "Before giving digoxin, the nurse counts an apical pulse of 54/min. What should the nurse do?"
+ },
+ {
+  "num": 405,
+  "topic": "Peds",
+  "question": "Which milestone should the nurse expect in a healthy 6-month-old?"
+ },
+ {
+  "num": 406,
+  "topic": "Neuro",
+  "question": "How should the nurse position an adult for a lumbar puncture?"
+ },
+ {
+  "num": 407,
+  "topic": "Endocrine",
+  "question": "A client with DKA is on an insulin infusion. Blood glucose drops to 200 mg/dL. Which change should the nurse expect?"
+ },
+ {
+  "num": 408,
+  "topic": "Infection Control",
+  "question": "A child is admitted with mumps. Which precautions should the nurse use?"
+ },
+ {
+  "num": 409,
+  "topic": "Maternity",
+  "question": "A laboring client's membranes rupture. Which fluid finding should the nurse report?"
+ },
+ {
+  "num": 410,
+  "topic": "Respiratory",
+  "question": "A client has pneumonia in the right lung only. Which position best improves oxygenation?"
+ },
+ {
+  "num": 411,
+  "topic": "Pharmacology",
+  "question": "The nurse teaches a client about a nitroglycerin patch. Which instruction is correct?"
+ },
+ {
+  "num": 412,
+  "topic": "GI",
+  "question": "A client who recovered from diverticulitis asks about long-term diet. Which diet is best?"
+ },
+ {
+  "num": 413,
+  "topic": "Electrolytes",
+  "question": "A client with hyperkalemia gets IV regular insulin with dextrose. What is the purpose of the insulin?"
+ },
+ {
+  "num": 414,
+  "topic": "Mental Health",
+  "question": "A client takes lithium for bipolar disorder. Which serum level is the usual maintenance range?"
+ },
+ {
+  "num": 415,
+  "topic": "Delegation",
+  "question": "The UAP reports these findings. Which one needs the RN's attention first?"
+ },
+ {
+  "num": 416,
+  "topic": "Cardiac",
+  "question": "A client in unstable atrial fibrillation needs synchronized cardioversion. What must the nurse do?"
+ },
+ {
+  "num": 417,
+  "topic": "Safety",
+  "question": "The nurse teaches a client with left leg weakness to use a walker. Which instruction is correct?"
+ },
+ {
+  "num": 418,
+  "topic": "Endocrine",
+  "question": "A client had radioactive iodine therapy for hyperthyroidism. Which instruction is correct?"
+ },
+ {
+  "num": 419,
+  "topic": "Renal",
+  "question": "A client is in the oliguric phase of acute kidney injury. Which finding should the nurse expect?"
+ },
+ {
+  "num": 420,
+  "topic": "Peds",
+  "question": "A child has a severe peanut allergy. Which item should always go with the child?"
+ },
+ {
+  "num": 421,
+  "topic": "Neuro",
+  "question": "Which finding should the nurse expect in a client with ALS?"
+ },
+ {
+  "num": 422,
+  "topic": "Hematology",
+  "question": "The nurse is about to start a blood transfusion. Who should verify the blood product at the bedside?"
+ },
+ {
+  "num": 423,
+  "topic": "Cardiac",
+  "question": "A client taking enalapril reports a dry, nagging cough. What is the most likely cause?"
+ },
+ {
+  "num": 424,
+  "topic": "Respiratory",
+  "question": "Which action helps prevent ventilator-associated pneumonia?"
+ },
+ {
+  "num": 425,
+  "topic": "Infection Control",
+  "question": "The nurse is putting on PPE to enter an isolation room. Which item goes on first?"
+ },
+ {
+  "num": 426,
+  "topic": "Maternity",
+  "question": "A postpartum client's fundus is above the umbilicus and shifted to the right. What is the most likely cause?"
+ },
+ {
+  "num": 427,
+  "topic": "Mental Health",
+  "question": "After arguing with the doctor, a client yells at the nurse for no reason. Which defense mechanism is this?"
+ },
+ {
+  "num": 428,
+  "topic": "GI",
+  "question": "Which finding should the nurse expect in a client with Crohn disease?"
+ },
+ {
+  "num": 429,
+  "topic": "Neuro",
+  "question": "A client with dementia wanders at night. Which intervention is best?"
+ },
+ {
+  "num": 430,
+  "topic": "Cardiac",
+  "question": "The nurse is checking a client's blood pressure. Which technique gives an accurate reading?"
+ },
+ {
+  "num": 431,
+  "topic": "Pharmacology",
+  "question": "A client taking warfarin has an INR of 9 and bleeding gums. Which antidote should the nurse expect?"
+ },
+ {
+  "num": 432,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in a child with rheumatic fever?"
+ },
+ {
+  "num": 433,
+  "topic": "Neuro",
+  "question": "A client has increased intracranial pressure. Which action should the nurse take?"
+ },
+ {
+  "num": 434,
+  "topic": "Endocrine",
+  "question": "A client in adrenal (Addisonian) crisis has low BP. Which medication should the nurse expect?"
+ },
+ {
+  "num": 435,
+  "topic": "Skin",
+  "question": "Which skin finding should the nurse report as a possible melanoma?"
+ },
+ {
+  "num": "P315",
+  "topic": "Pharmacology",
+  "question": "A healthy adult asks about acetaminophen. What is the usual maximum daily dose?"
+ },
+ {
+  "num": "P316",
+  "topic": "Cardiac",
+  "question": "An adult is unresponsive and not breathing normally. Which pulse should the nurse check?"
+ },
+ {
+  "num": "P317",
+  "topic": "Respiratory",
+  "question": "Which finding should the nurse expect in a client with long-term emphysema?"
+ },
+ {
+  "num": "P318",
+  "topic": "Endocrine",
+  "question": "The nurse teaches a client to use an insulin pen. Which step should the client do before each dose?"
+ },
+ {
+  "num": "P319",
+  "topic": "Peds",
+  "question": "The nurse teaches new parents about safe sleep. How should a healthy infant be placed to sleep?"
+ },
+ {
+  "num": "P320",
+  "topic": "Maternity",
+  "question": "A client at 32 weeks of pregnancy asks about fetal kick counts. Which guideline should the nurse teach?"
+ },
+ {
+  "num": "P321",
+  "topic": "Mental Health",
+  "question": "A client says, \"I just feel so overwhelmed today.\" Which response by the nurse is most therapeutic?"
  }
 ]
