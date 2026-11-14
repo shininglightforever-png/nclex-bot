@@ -1828,5 +1828,205 @@
   "num": "P321",
   "topic": "Mental Health",
   "question": "A client says, \"I just feel so overwhelmed today.\" Which response by the nurse is most therapeutic?"
+ },
+ {
+  "num": 436,
+  "topic": "Respiratory",
+  "question": "The water in a chest tube's water seal chamber rises when the client breathes in and falls when the client breathes out. What does this mean?"
+ },
+ {
+  "num": 437,
+  "topic": "Pharmacology",
+  "question": "A client is receiving IV ondansetron for nausea. Which ECG change should the nurse watch for?"
+ },
+ {
+  "num": 438,
+  "topic": "Peds",
+  "question": "The nurse is giving a liquid oral medication to a 4-month-old infant. Which method is best?"
+ },
+ {
+  "num": 439,
+  "topic": "Endocrine",
+  "question": "A client on bedtime insulin has high morning glucose. A 0300 glucose check is 52 mg/dL. What does this suggest?"
+ },
+ {
+  "num": 440,
+  "topic": "Neuro",
+  "question": "A client was just admitted with a C4 spinal cord injury. What is the nurse's priority assessment?"
+ },
+ {
+  "num": 441,
+  "topic": "Newborn",
+  "question": "Which finding shows a breastfed newborn is getting enough milk by day 5?"
+ },
+ {
+  "num": 442,
+  "topic": "Renal",
+  "question": "A client is scheduled for hemodialysis this morning. Which medication should the nurse usually hold until after dialysis?"
+ },
+ {
+  "num": 443,
+  "topic": "GI",
+  "question": "A client just had an upper endoscopy with a numbing throat spray. Which action is correct?"
+ },
+ {
+  "num": 444,
+  "topic": "Mental Health",
+  "question": "A client with schizophrenia says, \"The TV is talking to me.\" Which response by the nurse is best?"
+ },
+ {
+  "num": 445,
+  "topic": "Electrolytes",
+  "question": "Which client is most at risk for hypernatremia?"
+ },
+ {
+  "num": 446,
+  "topic": "Cardiac",
+  "question": "A client with a hypertensive emergency is started on an IV nitroprusside infusion. What should the nurse monitor most closely?"
+ },
+ {
+  "num": 447,
+  "topic": "Fire Safety",
+  "question": "The nurse is using a fire extinguisher. In PASS, what does the first step stand for?"
+ },
+ {
+  "num": 448,
+  "topic": "Infection Control",
+  "question": "A client is admitted with scabies. Which precautions should the nurse use?"
+ },
+ {
+  "num": 449,
+  "topic": "Hematology",
+  "question": "Which finding should the nurse expect in a client with thrombocytopenia?"
+ },
+ {
+  "num": 450,
+  "topic": "Peds",
+  "question": "At what age is a healthy child usually given the first dose of the MMR vaccine?"
+ },
+ {
+  "num": 451,
+  "topic": "Respiratory",
+  "question": "A client is receiving oxygen by Venturi mask. What is the main advantage of this device?"
+ },
+ {
+  "num": 452,
+  "topic": "Neuro",
+  "question": "The nurse is preparing to give IV phenytoin. Which IV fluid should the nurse use?"
+ },
+ {
+  "num": 453,
+  "topic": "Neuro",
+  "question": "A client with a head injury has rising intracranial pressure. Which findings make up Cushing triad?"
+ },
+ {
+  "num": 454,
+  "topic": "Endocrine",
+  "question": "A client with type 2 diabetes starts empagliflozin. Which adverse effect should the nurse teach the client about?"
+ },
+ {
+  "num": 455,
+  "topic": "Maternity",
+  "question": "Which client is at greatest risk for postpartum hemorrhage?"
+ },
+ {
+  "num": 456,
+  "topic": "Musculoskeletal",
+  "question": "An older adult fell and has a suspected hip fracture. Which finding should the nurse expect in the affected leg?"
+ },
+ {
+  "num": 457,
+  "topic": "Cardiac",
+  "question": "The nurse checks orthostatic vital signs. Which change from lying to standing confirms orthostatic hypotension?"
+ },
+ {
+  "num": 458,
+  "topic": "GI",
+  "question": "A client is receiving continuous tube feedings. How should the nurse position the client?"
+ },
+ {
+  "num": 459,
+  "topic": "Mental Health",
+  "question": "A client is starting amitriptyline for depression. Which side effect should the nurse teach the client to expect?"
+ },
+ {
+  "num": 460,
+  "topic": "Neuro",
+  "question": "After a lumbar puncture, a client has a headache that gets worse when sitting up. Which action should the nurse take?"
+ },
+ {
+  "num": 461,
+  "topic": "Infection Control",
+  "question": "A client is on contact precautions. Which action by the nurse is correct?"
+ },
+ {
+  "num": 462,
+  "topic": "Pharmacology",
+  "question": "A client receiving IV furosemide reports ringing in the ears. What should the nurse suspect?"
+ },
+ {
+  "num": 463,
+  "topic": "Peds",
+  "question": "A toddler has mild dehydration from diarrhea. Which fluid is best for the nurse to offer?"
+ },
+ {
+  "num": 464,
+  "topic": "Respiratory",
+  "question": "A client with active tuberculosis is taking medications. Which finding shows the client is no longer infectious?"
+ },
+ {
+  "num": 465,
+  "topic": "Cardiac",
+  "question": "Which blood pressure reading is classified as stage 2 hypertension in adults?"
+ },
+ {
+  "num": 466,
+  "topic": "Renal",
+  "question": "The nurse checks a client after surgery. Which finding suggests urinary retention?"
+ },
+ {
+  "num": 467,
+  "topic": "Endocrine",
+  "question": "A client with untreated hyperthyroidism is losing weight. Which diet should the nurse recommend?"
+ },
+ {
+  "num": 468,
+  "topic": "Priority",
+  "question": "Which client should the nurse see first?"
+ },
+ {
+  "num": "P322",
+  "topic": "Pharmacology",
+  "question": "A client takes furosemide every day for heart failure. Which lab value is most important for the nurse to monitor?"
+ },
+ {
+  "num": "P323",
+  "topic": "Cardiac",
+  "question": "The nurse is teaching about heart attack warning signs. Which symptoms are more common in women than in men?"
+ },
+ {
+  "num": "P324",
+  "topic": "Respiratory",
+  "question": "The nurse reviews an adult client's arterial blood gas. Which PaCO2 value is within the normal range?"
+ },
+ {
+  "num": "P325",
+  "topic": "Endocrine",
+  "question": "The nurse is reviewing insulin types. Which insulin is rapid-acting?"
+ },
+ {
+  "num": "P326",
+  "topic": "Peds",
+  "question": "The nurse is assessing a healthy newborn at rest. Which heart rate range is normal?"
+ },
+ {
+  "num": "P327",
+  "topic": "Maternity",
+  "question": "A client at 34 weeks of pregnancy comes for a checkup. Which finding suggests preeclampsia?"
+ },
+ {
+  "num": "P328",
+  "topic": "Mental Health",
+  "question": "A client with schizophrenia is starting olanzapine. Which should the nurse monitor most closely?"
  }
 ]
