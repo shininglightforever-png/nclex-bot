@@ -37,7 +37,9 @@ def main(src, date, folder=None):
         render_reel([g["q"] for g in group], v)
         hook = group[0]["q"].get("caption", "3 NCLEX questions. How many can you get?")
         cap = (f"{hook}\n\n🧠 3 NCLEX questions. Answer before the timer runs out!"
-               f"\n\n👇 How many did you get? Comment below\n\n❤️ Follow @ryan__glass for daily NCLEX practice"
+               f"\n\n👇 How many did you get? Comment below"
+               f"\n\n📚 Want 150 more? Full NCLEX question bank with rationales: link in bio"
+               f"\n\n❤️ Follow @ryan__glass for daily NCLEX practice"
                f"\n\n{HASHTAGS}")
         items.append({
             "id": rid,

@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 W, H = 1080, 1920
 FPS = 30
 Q_SECS, A_SECS, R_SECS = 15, 2, 5
+END_SECS = 3  # closing card that points to the question bank
 
 BG = (9, 7, 15)
 VIOLET = (168, 104, 252)
@@ -148,6 +149,26 @@ def rationale_card(q, idx, total):
     return img
 
 
+def end_card():
+    img = background()
+    d = ImageDraw.Draw(img)
+    glow_text(img, (W // 2, 560), "WANT 150 MORE?", poppins(92), VIOLET, 16)
+    box = (90, 680, W - 90, 1130)
+    d.rounded_rectangle(box, 36, fill=PANEL, outline=BORDER, width=3)
+    lines = [("NCLEX Question Bank", inter(58), TEXT),
+             ("150 questions by body system", inter(44, "Regular"), GREY),
+             ("Full rationales for every answer", inter(44, "Regular"), GREY)]
+    y = 770
+    for txt, fnt, col in lines:
+        d.text((W // 2, y), txt, font=fnt, fill=col, anchor="mm")
+        y += 110
+    pill = (W // 2 - 300, 1220, W // 2 + 300, 1330)
+    d.rounded_rectangle(pill, 55, fill=VIOLET)
+    d.text((W // 2, 1275), "LINK IN BIO", font=poppins(56), fill=(20, 12, 36), anchor="mm")
+    footer(img)
+    return img
+
+
 _numbers = {}
 def number_layer(n):
     if n not in _numbers:
@@ -167,7 +188,7 @@ def render_reel(questions, out_mp4):
     ff = subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
          "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-         "-f", "lavfi", "-t", str(total * (Q_SECS + A_SECS + R_SECS)), "-i", "anullsrc=r=44100:cl=stereo",
+         "-f", "lavfi", "-t", str(total * (Q_SECS + A_SECS + R_SECS) + END_SECS), "-i", "anullsrc=r=44100:cl=stereo",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-shortest", "-movflags", "+faststart", out_mp4],
         stdin=subprocess.PIPE)
@@ -193,6 +214,9 @@ def render_reel(questions, out_mp4):
         rat = rationale_card(q, i, total).tobytes()
         for _ in range(R_SECS * FPS):
             ff.stdin.write(rat)
+    end = end_card().tobytes()
+    for _ in range(END_SECS * FPS):
+        ff.stdin.write(end)
     ff.stdin.close()
     if ff.wait() != 0:
         raise RuntimeError("ffmpeg failed")
