@@ -22,6 +22,11 @@ RAW = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
 PAGE_ID = os.environ.get("FB_PAGE_ID")
 PAGE_TOKEN = os.environ.get("FB_PAGE_TOKEN")
 IG_ID = os.environ.get("IG_USER_ID")
+# Second Instagram (ryanglass444): same reels, posted IG2_DELAY later
+PAGE_ID_2 = os.environ.get("FB_PAGE_ID_2")
+PAGE_TOKEN_2 = os.environ.get("FB_PAGE_TOKEN_2")
+IG_ID_2 = os.environ.get("IG_USER_ID_2")
+IG2_DELAY = dt.timedelta(minutes=40)
 TT_KEY = os.environ.get("TIKTOK_CLIENT_KEY")
 TT_SECRET = os.environ.get("TIKTOK_CLIENT_SECRET")
 TT_REFRESH = os.environ.get("TIKTOK_REFRESH_TOKEN")
@@ -38,21 +43,21 @@ def url(path):
     return f"{RAW}/{path}"
 
 
-_page_token = None
+_page_tokens = {}
 
 
-def page_token():
+def page_token(acct=1):
     """Works whether the secret holds a Page token or a user token."""
-    global _page_token
-    if _page_token is None:
-        r = requests.get(f"{GRAPH}/{PAGE_ID}", params={"fields": "access_token",
-                                                      "access_token": PAGE_TOKEN}, timeout=60)
-        _page_token = r.json().get("access_token") or PAGE_TOKEN
-    return _page_token
+    if acct not in _page_tokens:
+        pid, tok = (PAGE_ID, PAGE_TOKEN) if acct == 1 else (PAGE_ID_2, PAGE_TOKEN_2)
+        r = requests.get(f"{GRAPH}/{pid}", params={"fields": "access_token",
+                                                  "access_token": tok}, timeout=60)
+        _page_tokens[acct] = r.json().get("access_token") or tok
+    return _page_tokens[acct]
 
 
-def graph(method, path, **data):
-    data["access_token"] = page_token()
+def graph(method, path, acct=1, **data):
+    data["access_token"] = page_token(acct)
     if method == "GET":
         r = requests.get(f"{GRAPH}/{path}", params=data, timeout=120)
     else:
@@ -63,9 +68,9 @@ def graph(method, path, **data):
 
 
 # ---------- Instagram ----------
-def ig_wait(container):
+def ig_wait(container, acct=1):
     for _ in range(60):
-        s = graph("GET", f"{container}?fields=status_code").get("status_code")
+        s = graph("GET", f"{container}?fields=status_code", acct=acct).get("status_code")
         if s == "FINISHED":
             return
         if s == "ERROR":
@@ -83,11 +88,12 @@ def ig_carousel(images, caption):
     return graph("POST", f"{IG_ID}/media_publish", creation_id=c)["id"]
 
 
-def ig_reel(video, caption):
-    c = graph("POST", f"{IG_ID}/media", media_type="REELS", video_url=url(video),
+def ig_reel(video, caption, acct=1):
+    ig = IG_ID if acct == 1 else IG_ID_2
+    c = graph("POST", f"{ig}/media", acct=acct, media_type="REELS", video_url=url(video),
               caption=caption, share_to_feed="true")["id"]
-    ig_wait(c)
-    return graph("POST", f"{IG_ID}/media_publish", creation_id=c)["id"]
+    ig_wait(c, acct)
+    return graph("POST", f"{ig}/media_publish", acct=acct, creation_id=c)["id"]
 
 
 # ---------- Facebook Page ----------
@@ -164,10 +170,17 @@ def main():
             # only catch up on items from the last 12 hours
             if now - when > dt.timedelta(hours=12):
                 continue
-            for platform in item["platforms"]:
+            platforms = list(item["platforms"])
+            if IG_ID_2 and PAGE_TOKEN_2 and "ig_reel" in platforms:
+                platforms.append("ig2_reel")
+            for platform in platforms:
                 key = f"{item['id']}:{platform}"
                 if key in state:
                     continue
+                if platform == "ig2_reel":
+                    # 40 min after the main account; never back-fill old reels in a burst
+                    if now < when + IG2_DELAY or now - (when + IG2_DELAY) > dt.timedelta(minutes=90):
+                        continue
                 cap = item["caption"]
                 try:
                     if DRY:
@@ -176,6 +189,8 @@ def main():
                         res = ig_carousel(item["images"], cap)
                     elif platform == "ig_reel":
                         res = ig_reel(item["video"], cap)
+                    elif platform == "ig2_reel":
+                        res = ig_reel(item["video"], cap, acct=2)
                     elif platform == "fb_photos":
                         res = fb_photos(item["images"], cap)
                     elif platform == "fb_reel":
