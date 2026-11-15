@@ -2028,5 +2028,205 @@
   "num": "P328",
   "topic": "Mental Health",
   "question": "A client with schizophrenia is starting olanzapine. Which should the nurse monitor most closely?"
+ },
+ {
+  "num": 469,
+  "topic": "Pharmacology",
+  "question": "A client starts hydrochlorothiazide for hypertension. Which lab change should the nurse watch for?"
+ },
+ {
+  "num": 470,
+  "topic": "Cardiac",
+  "question": "A client is pulseless and the monitor shows asystole. Which action is correct?"
+ },
+ {
+  "num": 471,
+  "topic": "Pediatrics",
+  "question": "Which finding should the nurse expect in an infant with coarctation of the aorta?"
+ },
+ {
+  "num": 472,
+  "topic": "Maternity",
+  "question": "A postpartum client has a BP of 162/104 mmHg. Which medication order should the nurse question?"
+ },
+ {
+  "num": 473,
+  "topic": "Neuro",
+  "question": "After a head injury, a client's arms flex tightly toward the chest and legs extend. What should the nurse document?"
+ },
+ {
+  "num": 474,
+  "topic": "Safety",
+  "question": "A client has a sealed radioactive implant for cancer. Which action by the nurse is correct?"
+ },
+ {
+  "num": 475,
+  "topic": "GI",
+  "question": "A client with cirrhosis has bleeding esophageal varices. Which medication should the nurse expect to give?"
+ },
+ {
+  "num": 476,
+  "topic": "Respiratory",
+  "question": "Which item should always be kept at the bedside of a client with a new tracheostomy?"
+ },
+ {
+  "num": 477,
+  "topic": "Mental Health",
+  "question": "A client is starting valproic acid for bipolar disorder. Which lab should the nurse monitor closely?"
+ },
+ {
+  "num": 478,
+  "topic": "Endocrine",
+  "question": "A client has high blood pressure and a low potassium level. Which condition should the nurse suspect?"
+ },
+ {
+  "num": 479,
+  "topic": "Infection Control",
+  "question": "A child is admitted with RSV bronchiolitis. Which precautions should the nurse use?"
+ },
+ {
+  "num": 480,
+  "topic": "GI",
+  "question": "A client takes sucralfate for a duodenal ulcer. When should the client take it?"
+ },
+ {
+  "num": 481,
+  "topic": "Renal",
+  "question": "A client had a kidney transplant 2 weeks ago. Which finding suggests rejection?"
+ },
+ {
+  "num": 482,
+  "topic": "Cardiac",
+  "question": "A client has acute pulmonary edema. How should the nurse position the client?"
+ },
+ {
+  "num": 483,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with fluid volume excess?"
+ },
+ {
+  "num": 484,
+  "topic": "Maternity",
+  "question": "A client's last menstrual period started on March 10. Using Naegele rule, what is the estimated due date?"
+ },
+ {
+  "num": 485,
+  "topic": "Oncology",
+  "question": "A client receiving chemotherapy starts filgrastim. Which side effect is most common?"
+ },
+ {
+  "num": 486,
+  "topic": "Neuro",
+  "question": "A client receives IV mannitol for increased intracranial pressure. Which finding should the nurse report?"
+ },
+ {
+  "num": 487,
+  "topic": "Respiratory",
+  "question": "A client has a productive cough. When is the best time to collect a sputum culture?"
+ },
+ {
+  "num": 488,
+  "topic": "Safety",
+  "question": "The nurse witnesses a client sign a surgical consent form. What does the nurse's signature mean?"
+ },
+ {
+  "num": 489,
+  "topic": "Pediatrics",
+  "question": "According to Erikson, which stage applies to a healthy 15-year-old?"
+ },
+ {
+  "num": 490,
+  "topic": "Pharmacology",
+  "question": "A client starts oxybutynin for an overactive bladder. Which side effect should the nurse teach about?"
+ },
+ {
+  "num": 491,
+  "topic": "Cardiac",
+  "question": "A client has digoxin toxicity with a life-threatening rhythm. Which medication should the nurse expect?"
+ },
+ {
+  "num": 492,
+  "topic": "Endocrine",
+  "question": "A client is starting semaglutide. Which history should the nurse report before the first dose?"
+ },
+ {
+  "num": 493,
+  "topic": "GI",
+  "question": "A client just had a barium swallow. Which instruction should the nurse give?"
+ },
+ {
+  "num": 494,
+  "topic": "Mental Health",
+  "question": "A client had electroconvulsive therapy (ECT) today. Which finding is expected afterward?"
+ },
+ {
+  "num": 495,
+  "topic": "Pediatrics",
+  "question": "A child has head lice. Which instruction should the nurse give the parents?"
+ },
+ {
+  "num": 496,
+  "topic": "Pharmacology",
+  "question": "A client takes ibuprofen every day for back pain. Which finding should the nurse report?"
+ },
+ {
+  "num": 497,
+  "topic": "Cardiac",
+  "question": "A client has ventricular tachycardia with a pulse and a stable BP. Which medication should the nurse expect?"
+ },
+ {
+  "num": 498,
+  "topic": "Pediatrics",
+  "question": "Which source is the most common cause of lead poisoning in young children?"
+ },
+ {
+  "num": 499,
+  "topic": "Electrolytes",
+  "question": "Which serum potassium level is within the normal range for an adult?"
+ },
+ {
+  "num": 500,
+  "topic": "Respiratory",
+  "question": "An anxious client is breathing fast. ABG: pH 7.50, PaCO2 30 mmHg, HCO3 24 mEq/L. What is the interpretation?"
+ },
+ {
+  "num": 501,
+  "topic": "Priority",
+  "question": "The nurse checks a client 4 hours after surgery. Which urine output should the nurse report?"
+ },
+ {
+  "num": "P329",
+  "topic": "Pharmacology",
+  "question": "During surgery under general anesthesia, a client develops muscle rigidity, a rising end-tidal CO2 and a rapidly rising temperature. Which medication should the nurse prepare?"
+ },
+ {
+  "num": "P330",
+  "topic": "Pharmacology",
+  "question": "A client is starting ethambutol for tuberculosis. Which symptom should the client report right away?"
+ },
+ {
+  "num": "P331",
+  "topic": "Maternity",
+  "question": "A client at 7 weeks of pregnancy has sudden sharp pain on one side of the lower abdomen and pain in the shoulder. What should the nurse suspect?"
+ },
+ {
+  "num": "P332",
+  "topic": "Renal",
+  "question": "During a first hemodialysis session, a client develops a headache, nausea and restlessness. What should the nurse suspect?"
+ },
+ {
+  "num": "P333",
+  "topic": "Pediatrics",
+  "question": "Parents ask what to do if their 2-year-old has another febrile seizure at home. Which instruction is correct?"
+ },
+ {
+  "num": "P334",
+  "topic": "Respiratory",
+  "question": "When should the nurse schedule chest physiotherapy for a child with cystic fibrosis?"
+ },
+ {
+  "num": "P335",
+  "topic": "Pharmacology",
+  "question": "A client is taking metoclopramide for gastroparesis. Which adverse effect should the nurse report?"
  }
 ]
