@@ -2228,5 +2228,205 @@
   "num": "P335",
   "topic": "Pharmacology",
   "question": "A client is taking metoclopramide for gastroparesis. Which adverse effect should the nurse report?"
+ },
+ {
+  "num": 502,
+  "topic": "Cardiac",
+  "question": "A client with a long QT interval develops torsades de pointes but still has a pulse. Which medication should the nurse expect to give first?"
+ },
+ {
+  "num": 503,
+  "topic": "Respiratory",
+  "question": "After a car crash, part of a client's chest wall moves in on inspiration and out on expiration. What should the nurse suspect?"
+ },
+ {
+  "num": 504,
+  "topic": "Newborn",
+  "question": "A 2-hour-old newborn is jittery and has a weak cry. What should the nurse do first?"
+ },
+ {
+  "num": 505,
+  "topic": "Neuro",
+  "question": "A client has a fever, headache and stiff neck. When the nurse flexes the neck, the client's hips and knees flex. What is this finding?"
+ },
+ {
+  "num": 506,
+  "topic": "GI",
+  "question": "A client has a colonoscopy tomorrow and is on clear liquids today. Which drink is allowed?"
+ },
+ {
+  "num": 507,
+  "topic": "Safety",
+  "question": "A client splashes a cleaning chemical into one eye. What should the nurse do first?"
+ },
+ {
+  "num": 508,
+  "topic": "Renal",
+  "question": "A client on peritoneal dialysis has slow outflow of the dialysate. What should the nurse do first?"
+ },
+ {
+  "num": 509,
+  "topic": "Pharmacology",
+  "question": "A client is starting clindamycin. Which symptom should the client report right away?"
+ },
+ {
+  "num": 510,
+  "topic": "Peds",
+  "question": "A 4-year-old needs an IV started. Which action helps the child cope best?"
+ },
+ {
+  "num": 511,
+  "topic": "Endocrine",
+  "question": "A client with hypothyroidism has a temperature of 95\u00b0F (35\u00b0C), a heart rate of 48/min and is hard to arouse. What should the nurse suspect?"
+ },
+ {
+  "num": 512,
+  "topic": "Sensory",
+  "question": "A client says it looks like a curtain is coming down over one eye. What should the nurse suspect?"
+ },
+ {
+  "num": 513,
+  "topic": "Pharmacology",
+  "question": "A client has a fentanyl patch for chronic pain. Which instruction should the nurse include?"
+ },
+ {
+  "num": 514,
+  "topic": "Maternity",
+  "question": "The fetal monitor shows variable decelerations during labor. What should the nurse do first?"
+ },
+ {
+  "num": 515,
+  "topic": "Respiratory",
+  "question": "Shortly after extubation, a client has a high-pitched sound on inspiration. What does this suggest?"
+ },
+ {
+  "num": 516,
+  "topic": "Electrolytes",
+  "question": "Which serum calcium level is within the normal adult range?"
+ },
+ {
+  "num": 517,
+  "topic": "Neuro",
+  "question": "A client had a stroke in the right hemisphere. Which behavior should the nurse expect?"
+ },
+ {
+  "num": 518,
+  "topic": "GI",
+  "question": "A client describes ulcer pain. Which statement fits a duodenal ulcer?"
+ },
+ {
+  "num": 519,
+  "topic": "Safety",
+  "question": "A client refuses a scheduled medication after teaching. What should the nurse do?"
+ },
+ {
+  "num": 520,
+  "topic": "Endocrine",
+  "question": "A client with type 2 diabetes takes pioglitazone. Which finding should the nurse report?"
+ },
+ {
+  "num": 521,
+  "topic": "Peds",
+  "question": "Which infant should the nurse arrange to be seen by a provider today?"
+ },
+ {
+  "num": 522,
+  "topic": "Infection Control",
+  "question": "A client has disseminated herpes zoster (shingles). Which precautions should the nurse use?"
+ },
+ {
+  "num": 523,
+  "topic": "Neuro",
+  "question": "A client with a new spinal cord injury at T2 has BP 80/46 mmHg and a heart rate of 48/min. What should the nurse suspect?"
+ },
+ {
+  "num": 524,
+  "topic": "Pharmacology",
+  "question": "A client uses timolol eye drops for glaucoma. Which instruction should the nurse include?"
+ },
+ {
+  "num": 525,
+  "topic": "Musculoskeletal",
+  "question": "A client had spinal fusion surgery yesterday. How should the nurse turn the client?"
+ },
+ {
+  "num": 526,
+  "topic": "Newborn",
+  "question": "Where should the nurse do a heel stick on a newborn?"
+ },
+ {
+  "num": 527,
+  "topic": "Oncology",
+  "question": "During IV chemotherapy, a client reports burning at the IV site and the area is swollen. What should the nurse do first?"
+ },
+ {
+  "num": 528,
+  "topic": "Musculoskeletal",
+  "question": "A client has tingling in the thumb and first fingers. Holding both wrists flexed for 60 seconds makes it worse. What is suspected?"
+ },
+ {
+  "num": 529,
+  "topic": "Mental Health",
+  "question": "A client with paranoia refuses hospital meals and says the food is poisoned. Which action is best?"
+ },
+ {
+  "num": 530,
+  "topic": "Older Adult",
+  "question": "An older adult asks for diphenhydramine to help with sleep. Why should the nurse be cautious?"
+ },
+ {
+  "num": 531,
+  "topic": "Renal",
+  "question": "A client passing a kidney stone at home asks what to do. Which instruction is correct?"
+ },
+ {
+  "num": 532,
+  "topic": "Hematology",
+  "question": "A client starts a unit of packed red blood cells. When is the client most at risk for a severe reaction?"
+ },
+ {
+  "num": 533,
+  "topic": "Infection Control",
+  "question": "The nurse is about to access a client's central line. Which action helps prevent a bloodstream infection?"
+ },
+ {
+  "num": 534,
+  "topic": "Skin",
+  "question": "Which finding shows a stage 1 pressure injury?"
+ },
+ {
+  "num": "P336",
+  "topic": "Pharmacology",
+  "question": "Before giving the first dose of IV ceftriaxone, which history is most important for the nurse to ask about?"
+ },
+ {
+  "num": "P337",
+  "topic": "Endocrine",
+  "question": "A client had transsphenoidal surgery to remove a pituitary tumor. Which instruction should the nurse give?"
+ },
+ {
+  "num": "P338",
+  "topic": "Maternity",
+  "question": "At 1 minute, a newborn has a heart rate of 120/min, a strong cry, active motion, a grimace with suctioning, and blue hands and feet. What is the Apgar score?"
+ },
+ {
+  "num": "P339",
+  "topic": "Cardiac",
+  "question": "The nurse sees regular P waves and regular QRS complexes on the monitor, but the P waves have no relationship to the QRS complexes. Which rhythm is this?"
+ },
+ {
+  "num": "P340",
+  "topic": "Mental Health",
+  "question": "A child with autism spectrum disorder is admitted to the pediatric unit. Which action by the nurse is best?"
+ },
+ {
+  "num": "P341",
+  "topic": "Pharmacology",
+  "question": "A client is receiving IV ketorolac after surgery. Which finding should make the nurse hold the next dose and contact the provider?"
+ },
+ {
+  "num": "P342",
+  "topic": "Legal + Ethics",
+  "question": "Which action by the nurse best protects client confidentiality?"
  }
 ]
