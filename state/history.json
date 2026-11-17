@@ -2428,5 +2428,205 @@
   "num": "P342",
   "topic": "Legal + Ethics",
   "question": "Which action by the nurse best protects client confidentiality?"
+ },
+ {
+  "num": 535,
+  "topic": "Sepsis",
+  "question": "A client with septic shock has BP 82/48 mmHg and a lactate of 4.2 mmol/L. Which initial fluid order should the nurse anticipate?"
+ },
+ {
+  "num": 536,
+  "topic": "Peds",
+  "question": "A child weighs 22 lb. The order is 10 mg/kg of a medication. What dose should the nurse give?"
+ },
+ {
+  "num": 537,
+  "topic": "Eye",
+  "question": "A client starts latanoprost eye drops for glaucoma. Which effect should the nurse teach the client about?"
+ },
+ {
+  "num": 538,
+  "topic": "Neuro",
+  "question": "A client with myasthenia gravis takes pyridostigmine. When should the client take it?"
+ },
+ {
+  "num": 539,
+  "topic": "Renal",
+  "question": "A client is starting finasteride for an enlarged prostate. Which teaching is most important?"
+ },
+ {
+  "num": 540,
+  "topic": "Respiratory",
+  "question": "A client with COPD takes theophylline. The serum level is 24 mcg/mL. Which finding should the nurse expect?"
+ },
+ {
+  "num": 541,
+  "topic": "GI",
+  "question": "A client with cirrhosis has worsening hepatic encephalopathy. Which finding should the nurse expect?"
+ },
+ {
+  "num": 542,
+  "topic": "Maternity",
+  "question": "During labor, the fetal heart rate slows and recovers in a pattern that mirrors each contraction. What causes this pattern?"
+ },
+ {
+  "num": 543,
+  "topic": "Psych",
+  "question": "A client admitted with a heart attack keeps walking the halls and says, \"It was just indigestion.\" Which defense mechanism is this?"
+ },
+ {
+  "num": 544,
+  "topic": "Cardiac",
+  "question": "A client takes clonidine for hypertension. Which instruction is most important?"
+ },
+ {
+  "num": 545,
+  "topic": "Peds",
+  "question": "Which age group is most likely to show separation anxiety during a hospital stay?"
+ },
+ {
+  "num": 546,
+  "topic": "Endocrine",
+  "question": "For most adults with diabetes, which pre-meal blood glucose range is the usual target?"
+ },
+ {
+  "num": 547,
+  "topic": "Infection",
+  "question": "A client finds a tick attached to the leg. Which removal method should the nurse teach?"
+ },
+ {
+  "num": 548,
+  "topic": "Vascular",
+  "question": "A client with peripheral arterial disease has leg pain at rest. Which action helps relieve the pain?"
+ },
+ {
+  "num": 549,
+  "topic": "Electrolytes",
+  "question": "Which serum sodium level is within the normal range for an adult?"
+ },
+ {
+  "num": 550,
+  "topic": "Neuro",
+  "question": "A client is sent home after a mild concussion. Which finding should the family report right away?"
+ },
+ {
+  "num": 551,
+  "topic": "Neuro",
+  "question": "A client is starting lamotrigine for seizures. Which finding should the client report right away?"
+ },
+ {
+  "num": 552,
+  "topic": "Respiratory",
+  "question": "The low-pressure alarm sounds on a client's ventilator. What is a common cause?"
+ },
+ {
+  "num": 553,
+  "topic": "Peds",
+  "question": "A newborn has a myelomeningocele. Which action should the nurse take before surgery?"
+ },
+ {
+  "num": 554,
+  "topic": "Oncology",
+  "question": "A client with lung cancer has facial swelling, distended neck veins and shortness of breath. What should the nurse suspect?"
+ },
+ {
+  "num": 555,
+  "topic": "Peds",
+  "question": "Which site is preferred for an intramuscular injection in an infant?"
+ },
+ {
+  "num": 556,
+  "topic": "Endocrine",
+  "question": "A client with type 2 diabetes takes sitagliptin. Which finding should the client report right away?"
+ },
+ {
+  "num": 557,
+  "topic": "Maternity",
+  "question": "Which vaccine is recommended during every pregnancy?"
+ },
+ {
+  "num": 558,
+  "topic": "Psych",
+  "question": "A client with borderline personality disorder says, \"You are the only nurse who understands me. The others are terrible.\" What is the best approach?"
+ },
+ {
+  "num": 559,
+  "topic": "Hematology",
+  "question": "Which finding is most common when Hodgkin lymphoma is first found?"
+ },
+ {
+  "num": 560,
+  "topic": "Burns",
+  "question": "An adult with major burns is receiving fluid resuscitation. Which finding shows the fluids are adequate?"
+ },
+ {
+  "num": 561,
+  "topic": "Infection",
+  "question": "Which action is correct when the nurse uses alcohol-based hand rub?"
+ },
+ {
+  "num": 562,
+  "topic": "Cardiac",
+  "question": "A client takes dabigatran for atrial fibrillation. Which instruction is correct?"
+ },
+ {
+  "num": 563,
+  "topic": "Mobility",
+  "question": "A client with left-sided weakness is moving from the bed to a wheelchair. Where should the nurse place the wheelchair?"
+ },
+ {
+  "num": 564,
+  "topic": "Renal",
+  "question": "A client starts sulfamethoxazole-trimethoprim for a urinary tract infection. Which instruction should the nurse give?"
+ },
+ {
+  "num": 565,
+  "topic": "Respiratory",
+  "question": "A client with influenza is prescribed oseltamivir. Which statement about this drug is correct?"
+ },
+ {
+  "num": 566,
+  "topic": "Peds",
+  "question": "Which test result supports a diagnosis of cystic fibrosis in a child?"
+ },
+ {
+  "num": 567,
+  "topic": "Immune",
+  "question": "A client has systemic lupus erythematosus. Which instruction is most important?"
+ },
+ {
+  "num": "P343",
+  "topic": "Pharmacology",
+  "question": "The nurse is giving iron dextran by intramuscular injection. Which technique is correct?"
+ },
+ {
+  "num": "P344",
+  "topic": "Cardiac",
+  "question": "Which group of findings is classic in a client with severe aortic stenosis?"
+ },
+ {
+  "num": "P345",
+  "topic": "GI",
+  "question": "A client had a total gastrectomy. Which therapy will the client need for life?"
+ },
+ {
+  "num": "P346",
+  "topic": "Mental Health",
+  "question": "A client with terminal cancer says, \"If I can just make it to my grandson's graduation, I'll be ready.\" Which stage of grief is this?"
+ },
+ {
+  "num": "P347",
+  "topic": "Safety",
+  "question": "A runner has a temperature of 105\u00b0F (40.6\u00b0C), hot dry skin and confusion. What is the nurse's priority?"
+ },
+ {
+  "num": "P348",
+  "topic": "Peds",
+  "question": "Which pain scale is best for the nurse to use with a 2-year-old after surgery?"
+ },
+ {
+  "num": "P349",
+  "topic": "Safety",
+  "question": "The nurse fills out an incident report after a client falls. Which action is correct?"
  }
 ]
