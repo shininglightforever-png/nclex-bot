@@ -2628,5 +2628,205 @@
   "num": "P349",
   "topic": "Safety",
   "question": "The nurse fills out an incident report after a client falls. Which action is correct?"
+ },
+ {
+  "num": 568,
+  "topic": "Maternity",
+  "question": "A client on IV magnesium sulfate has respirations of 10/min and absent reflexes. Which medication should the nurse have ready?"
+ },
+ {
+  "num": 569,
+  "topic": "Respiratory",
+  "question": "A client is learning to use a dry powder inhaler. Which instruction is correct?"
+ },
+ {
+  "num": 570,
+  "topic": "Renal",
+  "question": "A client needs a 24-hour urine collection starting at 0800. What should the nurse do first?"
+ },
+ {
+  "num": 571,
+  "topic": "Cardiac",
+  "question": "A client is going home after open heart surgery. Which instruction is correct?"
+ },
+ {
+  "num": 572,
+  "topic": "Peds",
+  "question": "A 2-month-old is due for digoxin. The apical pulse is 84/min. What should the nurse do?"
+ },
+ {
+  "num": 573,
+  "topic": "Neuro",
+  "question": "A client is taking baclofen for muscle spasms. Which instruction is most important?"
+ },
+ {
+  "num": 574,
+  "topic": "GI",
+  "question": "After abdominal surgery, which finding best shows that bowel function is returning?"
+ },
+ {
+  "num": 575,
+  "topic": "Endocrine",
+  "question": "A client in diabetic ketoacidosis arrives in the ED. Which IV fluid should the nurse expect to start first?"
+ },
+ {
+  "num": 576,
+  "topic": "Infection Control",
+  "question": "A client with active tuberculosis needs to go to radiology. What should the client wear during transport?"
+ },
+ {
+  "num": 577,
+  "topic": "Neuro",
+  "question": "After a carotid endarterectomy, which finding should the nurse report right away?"
+ },
+ {
+  "num": 578,
+  "topic": "Cardiac",
+  "question": "A client is starting verapamil. Which side effect should the nurse teach the client about?"
+ },
+ {
+  "num": 579,
+  "topic": "Musculoskeletal",
+  "question": "A client with gout asks about diet. Which food should the client limit?"
+ },
+ {
+  "num": 580,
+  "topic": "Respiratory",
+  "question": "A client with a COPD flare is started on IV methylprednisolone. Which lab should the nurse monitor closely?"
+ },
+ {
+  "num": 581,
+  "topic": "Peds",
+  "question": "Parents ask when to start solid foods for their healthy infant. Which response is best?"
+ },
+ {
+  "num": 582,
+  "topic": "Renal",
+  "question": "A client has stress urinary incontinence. Which instruction should the nurse give?"
+ },
+ {
+  "num": 583,
+  "topic": "Electrolytes",
+  "question": "For which client is an IV of 5% dextrose in water (D5W) most unsafe?"
+ },
+ {
+  "num": 584,
+  "topic": "Mental Health",
+  "question": "A client takes lithium for bipolar disorder. Which diet instruction is correct?"
+ },
+ {
+  "num": 585,
+  "topic": "Hematology",
+  "question": "Which finding should the nurse expect in a client with polycythemia vera?"
+ },
+ {
+  "num": 586,
+  "topic": "Respiratory",
+  "question": "Which client should the nurse see first?"
+ },
+ {
+  "num": 587,
+  "topic": "Newborn",
+  "question": "Why does the nurse apply erythromycin ointment to a newborn's eyes?"
+ },
+ {
+  "num": 588,
+  "topic": "Skin",
+  "question": "A client has cellulitis of the lower leg. Which action helps the nurse track the infection?"
+ },
+ {
+  "num": 589,
+  "topic": "Pharmacology",
+  "question": "A client is prescribed nitrofurantoin for a UTI. Which instruction is correct?"
+ },
+ {
+  "num": 590,
+  "topic": "Endocrine",
+  "question": "A client with Addison disease takes hydrocortisone daily. Which instruction is correct?"
+ },
+ {
+  "num": 591,
+  "topic": "Oncology",
+  "question": "A client receiving chemotherapy has painful mouth sores. Which instruction should the nurse give?"
+ },
+ {
+  "num": 592,
+  "topic": "Cardiac",
+  "question": "A client is prescribed propranolol. Which history should the nurse report before giving it?"
+ },
+ {
+  "num": 593,
+  "topic": "GI",
+  "question": "An older adult with constipation now has small amounts of liquid stool leaking. What should the nurse suspect?"
+ },
+ {
+  "num": 594,
+  "topic": "Eye",
+  "question": "A client has two different eye drops due at the same time. What should the nurse do?"
+ },
+ {
+  "num": 595,
+  "topic": "Musculoskeletal",
+  "question": "After a total knee replacement, which finding should the nurse report right away?"
+ },
+ {
+  "num": 596,
+  "topic": "Mental Health",
+  "question": "A client starts quetiapine for schizophrenia. Which instruction is most important?"
+ },
+ {
+  "num": 597,
+  "topic": "Respiratory",
+  "question": "An older adult has pneumonia but no fever. Which finding is often the first sign?"
+ },
+ {
+  "num": 598,
+  "topic": "Oncology",
+  "question": "A client with cancer has new, worsening back pain. Which complication should the nurse suspect?"
+ },
+ {
+  "num": 599,
+  "topic": "Pharmacology",
+  "question": "A client takes zolpidem for sleep. Which instruction is correct?"
+ },
+ {
+  "num": 600,
+  "topic": "Safety",
+  "question": "The nurse uses SBAR to call a provider about a client. What does the R stand for?"
+ },
+ {
+  "num": "P350",
+  "topic": "Pharmacology",
+  "question": "A client takes high-dose aspirin daily for arthritis and now reports ringing in the ears. What should the nurse suspect?"
+ },
+ {
+  "num": "P351",
+  "topic": "Cardiac",
+  "question": "A client is going home with a 24-hour Holter monitor. Which instruction should the nurse give?"
+ },
+ {
+  "num": "P352",
+  "topic": "Respiratory",
+  "question": "One day after abdominal surgery, a client has diminished breath sounds at the lung bases and a low-grade fever. Which action should the nurse encourage?"
+ },
+ {
+  "num": "P353",
+  "topic": "Endocrine",
+  "question": "A client with Graves disease has bulging eyes (exophthalmos). Which instruction should the nurse give?"
+ },
+ {
+  "num": "P354",
+  "topic": "Peds",
+  "question": "Which milestone should the nurse expect in a healthy 12-month-old?"
+ },
+ {
+  "num": "P355",
+  "topic": "Maternity",
+  "question": "A client at 30 weeks of pregnancy receives terbutaline for preterm labor. Which side effect should the nurse watch for?"
+ },
+ {
+  "num": "P356",
+  "topic": "Mental Health",
+  "question": "A client on the mental health unit says, \"I don't want to talk right now.\" Which response by the nurse is best?"
  }
 ]
