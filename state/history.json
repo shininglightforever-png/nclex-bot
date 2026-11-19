@@ -2828,5 +2828,205 @@
   "num": "P356",
   "topic": "Mental Health",
   "question": "A client on the mental health unit says, \"I don't want to talk right now.\" Which response by the nurse is best?"
+ },
+ {
+  "num": 601,
+  "topic": "Respiratory",
+  "question": "A client with asthma is prescribed salmeterol. Which statement shows understanding of the teaching?"
+ },
+ {
+  "num": 602,
+  "topic": "GI",
+  "question": "A client is admitted with acute pancreatitis and severe abdominal pain. Which intervention should the nurse expect?"
+ },
+ {
+  "num": 603,
+  "topic": "Neuro",
+  "question": "The nurse prepares a room for a client on seizure precautions. Which item should be at the bedside?"
+ },
+ {
+  "num": 604,
+  "topic": "Acid-Base",
+  "question": "ABG results: pH 7.28, PaCO2 38 mmHg, HCO3 16 mEq/L. How should the nurse interpret these results?"
+ },
+ {
+  "num": 605,
+  "topic": "Newborn",
+  "question": "A newborn has a swelling on the head that does not cross the suture lines. What should the nurse suspect?"
+ },
+ {
+  "num": 606,
+  "topic": "Maternity",
+  "question": "A client with severe preeclampsia has new labs. Which results suggest HELLP syndrome?"
+ },
+ {
+  "num": 607,
+  "topic": "Cardiac",
+  "question": "The monitor shows asystole, but the client is awake and talking. What should the nurse do first?"
+ },
+ {
+  "num": 608,
+  "topic": "Sensory",
+  "question": "The nurse uses an otoscope on an adult. How should the nurse straighten the ear canal?"
+ },
+ {
+  "num": 609,
+  "topic": "Endocrine",
+  "question": "A client with DKA will start an IV insulin infusion. Which lab must the nurse check first?"
+ },
+ {
+  "num": 610,
+  "topic": "Peds",
+  "question": "A 6-month-old is choking and cannot cry or cough. What should the nurse do?"
+ },
+ {
+  "num": 611,
+  "topic": "Musculoskeletal",
+  "question": "A client sprained an ankle an hour ago. Which instruction is correct?"
+ },
+ {
+  "num": 612,
+  "topic": "Renal",
+  "question": "Which urine specific gravity suggests the client is dehydrated?"
+ },
+ {
+  "num": 613,
+  "topic": "Mental Health",
+  "question": "A toilet-trained 4-year-old starts wetting the bed while in the hospital. Which defense mechanism is this?"
+ },
+ {
+  "num": 614,
+  "topic": "GI",
+  "question": "A client has a peptic ulcer caused by H. pylori. Which treatment should the nurse expect?"
+ },
+ {
+  "num": 615,
+  "topic": "Vascular",
+  "question": "A client with chronic venous insufficiency is prescribed compression stockings. When should the client put them on?"
+ },
+ {
+  "num": 616,
+  "topic": "Infection Control",
+  "question": "A child has impetigo. Which instruction should the nurse give the parents?"
+ },
+ {
+  "num": 617,
+  "topic": "Pharmacology",
+  "question": "A client is starting raloxifene for osteoporosis. Which finding should the client report right away?"
+ },
+ {
+  "num": 618,
+  "topic": "Mental Health",
+  "question": "A client has seasonal affective disorder. Which treatment should the nurse expect?"
+ },
+ {
+  "num": 619,
+  "topic": "Peds",
+  "question": "A boy with Duchenne muscular dystrophy uses his hands to walk up his legs to stand. What is this called?"
+ },
+ {
+  "num": 620,
+  "topic": "Cardiac",
+  "question": "The nurse performs CPR on an adult. Which compression rate is correct?"
+ },
+ {
+  "num": 621,
+  "topic": "Safety",
+  "question": "A parent calls because a toddler swallowed drain cleaner. What should the nurse tell the parent first?"
+ },
+ {
+  "num": 622,
+  "topic": "Hematology",
+  "question": "A client had a splenectomy. Which teaching is most important?"
+ },
+ {
+  "num": 623,
+  "topic": "Mental Health",
+  "question": "A client starts lorazepam for anxiety. Which instruction is most important?"
+ },
+ {
+  "num": 624,
+  "topic": "Pharmacology",
+  "question": "A client is receiving IV acyclovir. Which action helps protect the kidneys?"
+ },
+ {
+  "num": 625,
+  "topic": "Endocrine",
+  "question": "A client with SIADH has a sodium level of 126 mEq/L. Which order should the nurse expect?"
+ },
+ {
+  "num": 626,
+  "topic": "Newborn",
+  "question": "Which axillary temperature is normal for a healthy newborn?"
+ },
+ {
+  "num": 627,
+  "topic": "Musculoskeletal",
+  "question": "A client with gout takes colchicine. Which finding should make the nurse hold the dose?"
+ },
+ {
+  "num": 628,
+  "topic": "Priority",
+  "question": "Which client should the nurse see first?"
+ },
+ {
+  "num": 629,
+  "topic": "Immune",
+  "question": "The nurse teaches a client to use an epinephrine auto-injector. Which instruction is correct?"
+ },
+ {
+  "num": 630,
+  "topic": "Renal",
+  "question": "A client with chronic kidney disease asks about pain relief. Which option should the client avoid?"
+ },
+ {
+  "num": 631,
+  "topic": "Maternity",
+  "question": "When do most first-time mothers first feel fetal movement (quickening)?"
+ },
+ {
+  "num": 632,
+  "topic": "Mobility",
+  "question": "The nurse uses a gait belt to help a client walk. Where should the nurse stand?"
+ },
+ {
+  "num": 633,
+  "topic": "Respiratory",
+  "question": "A client uses a metered-dose inhaler with a spacer. Which instruction is correct?"
+ },
+ {
+  "num": "P357",
+  "topic": "Pharmacology",
+  "question": "A client is prescribed oral potassium chloride extended-release tablets. Which instruction should the nurse include?"
+ },
+ {
+  "num": "P358",
+  "topic": "Cardiac",
+  "question": "The nurse listens to the heart and hears the second sound (the \"dub\" in lub-dub). What causes this sound?"
+ },
+ {
+  "num": "P359",
+  "topic": "Endocrine",
+  "question": "A client in diabetic ketoacidosis needs an insulin infusion. Which type of insulin can be given intravenously?"
+ },
+ {
+  "num": "P360",
+  "topic": "Peds",
+  "question": "A newborn is born with clubfoot. Which treatment is usually started first?"
+ },
+ {
+  "num": "P361",
+  "topic": "Maternity",
+  "question": "A client at 10 weeks of pregnancy has vomiting many times a day, weight loss and ketones in the urine. What should the nurse suspect?"
+ },
+ {
+  "num": "P362",
+  "topic": "Mental Health",
+  "question": "A client who often feels angry starts lifting weights at the gym every day to release that anger. Which defense mechanism is this?"
+ },
+ {
+  "num": "P363",
+  "topic": "Neuro",
+  "question": "A client with a head injury has a new fixed, dilated right pupil. What does this finding most likely suggest?"
  }
 ]
