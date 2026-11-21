@@ -3228,5 +3228,205 @@
   "num": "P370",
   "topic": "Mental Health",
   "question": "A client says, \"I'm worried about going home.\" Which response by the nurse uses reflection?"
+ },
+ {
+  "num": 667,
+  "topic": "Cardiac",
+  "question": "A client with chest pain has a BP of 84/50 mmHg. Which order should the nurse question?"
+ },
+ {
+  "num": 668,
+  "topic": "Infection Control",
+  "question": "When washing with soap and water, how long should the nurse rub the hands at minimum?"
+ },
+ {
+  "num": 669,
+  "topic": "Peds",
+  "question": "A child is prescribed amoxicillin for strep throat. Which instruction is most important for the parents?"
+ },
+ {
+  "num": 670,
+  "topic": "Neuro",
+  "question": "Which finding should the nurse expect in a client with Huntington disease?"
+ },
+ {
+  "num": 671,
+  "topic": "Electrolytes",
+  "question": "Which serum magnesium level is within the normal adult range?"
+ },
+ {
+  "num": 672,
+  "topic": "Maternity",
+  "question": "Right after the placenta delivers, a client receives oxytocin. What is the main purpose?"
+ },
+ {
+  "num": 673,
+  "topic": "Respiratory",
+  "question": "A client with COPD starts tiotropium. Which side effect is most common?"
+ },
+ {
+  "num": 674,
+  "topic": "GI",
+  "question": "Where does the pain of appendicitis usually settle?"
+ },
+ {
+  "num": 675,
+  "topic": "Mental Health",
+  "question": "Which finding best fits generalized anxiety disorder (GAD)?"
+ },
+ {
+  "num": 676,
+  "topic": "Endocrine",
+  "question": "A client has hypoparathyroidism. Which treatment should the nurse expect?"
+ },
+ {
+  "num": 677,
+  "topic": "Hematology",
+  "question": "A unit of packed red blood cells is started. It should be finished within how many hours?"
+ },
+ {
+  "num": 678,
+  "topic": "Musculoskeletal",
+  "question": "The nurse is fitting a client for crutches. Where should the top of the crutch be?"
+ },
+ {
+  "num": 679,
+  "topic": "Pharmacology",
+  "question": "A client taking tamoxifen has new pain and swelling in one calf. What should the nurse suspect?"
+ },
+ {
+  "num": 680,
+  "topic": "Neuro",
+  "question": "The nurse uses a Snellen chart. Which cranial nerve is being tested?"
+ },
+ {
+  "num": 681,
+  "topic": "Skin",
+  "question": "Which finding describes a stage 2 pressure injury?"
+ },
+ {
+  "num": 682,
+  "topic": "Renal",
+  "question": "Which lab finding should the nurse expect in a client with chronic kidney disease?"
+ },
+ {
+  "num": 683,
+  "topic": "Priority",
+  "question": "After surgery, which client finding needs the nurse's action first?"
+ },
+ {
+  "num": 684,
+  "topic": "Peds",
+  "question": "When can a healthy infant switch from formula to whole cow's milk?"
+ },
+ {
+  "num": 685,
+  "topic": "Pharmacology",
+  "question": "Which serum phenytoin level is the usual therapeutic range?"
+ },
+ {
+  "num": 686,
+  "topic": "Respiratory",
+  "question": "Which breath sound should the nurse expect over an area of pneumonia?"
+ },
+ {
+  "num": 687,
+  "topic": "Newborn",
+  "question": "A client had gestational diabetes. After birth, which problem should the nurse watch for in the newborn?"
+ },
+ {
+  "num": 688,
+  "topic": "Cardiac",
+  "question": "For most adults, which LDL cholesterol level is considered optimal?"
+ },
+ {
+  "num": 689,
+  "topic": "Oncology",
+  "question": "When should the nurse give an antiemetic to a client getting chemotherapy?"
+ },
+ {
+  "num": 690,
+  "topic": "Legal + Ethics",
+  "question": "Which action by the nurse could be considered battery?"
+ },
+ {
+  "num": 691,
+  "topic": "Safety",
+  "question": "The nurse finds a client lying on the floor next to the bed. What should the nurse do first?"
+ },
+ {
+  "num": 692,
+  "topic": "GI",
+  "question": "After laparoscopic gallbladder surgery, a client has right shoulder pain. What is the most likely cause?"
+ },
+ {
+  "num": 693,
+  "topic": "Eye",
+  "question": "Which finding should the nurse expect in a client with open-angle glaucoma?"
+ },
+ {
+  "num": 694,
+  "topic": "Pharmacology",
+  "question": "A client starts oxycodone after surgery. Which side effect should the nurse plan to prevent?"
+ },
+ {
+  "num": 695,
+  "topic": "Neuro",
+  "question": "Which statement about a transient ischemic attack (TIA) is correct?"
+ },
+ {
+  "num": 696,
+  "topic": "Electrolytes",
+  "question": "Which finding should the nurse expect in a client with fluid volume deficit?"
+ },
+ {
+  "num": 697,
+  "topic": "Delegation",
+  "question": "A UAP reports a client's BP is 172/100 mmHg. What should the RN do first?"
+ },
+ {
+  "num": 698,
+  "topic": "Vascular",
+  "question": "Which action best helps prevent a deep vein thrombosis (DVT) after surgery?"
+ },
+ {
+  "num": 699,
+  "topic": "Pharmacology",
+  "question": "A client starts simvastatin. Which drink should the client avoid in large amounts?"
+ },
+ {
+  "num": "P371",
+  "topic": "Pharmacology",
+  "question": "A client with pulmonary hypertension takes sildenafil. Which medication would make this unsafe?"
+ },
+ {
+  "num": "P372",
+  "topic": "Cardiac",
+  "question": "Before drawing an arterial blood gas from the radial artery, which test should the nurse perform?"
+ },
+ {
+  "num": "P373",
+  "topic": "Respiratory",
+  "question": "Which vaccine helps protect a 70-year-old client from a common cause of bacterial pneumonia?"
+ },
+ {
+  "num": "P374",
+  "topic": "Endocrine",
+  "question": "For most nonpregnant adults with diabetes, what is the usual hemoglobin A1C goal?"
+ },
+ {
+  "num": "P375",
+  "topic": "Peds",
+  "question": "Which milestone should the nurse expect in a healthy 2-year-old?"
+ },
+ {
+  "num": "P376",
+  "topic": "Maternity",
+  "question": "On postpartum day 2, which lochia finding should the nurse expect?"
+ },
+ {
+  "num": "P377",
+  "topic": "Mental Health",
+  "question": "Which finding is a negative symptom of schizophrenia?"
  }
 ]
