@@ -3428,5 +3428,205 @@
   "num": "P377",
   "topic": "Mental Health",
   "question": "Which finding is a negative symptom of schizophrenia?"
+ },
+ {
+  "num": 700,
+  "topic": "Cardiac",
+  "question": "A client has an apical pulse of 98/min and a radial pulse of 84/min. What is the pulse deficit?"
+ },
+ {
+  "num": 701,
+  "topic": "Peds",
+  "question": "A child has bright red cheeks that look slapped, then a lacy rash on the arms. Which infection is most likely?"
+ },
+ {
+  "num": 702,
+  "topic": "Electrolytes",
+  "question": "Which IV solution is hypertonic?"
+ },
+ {
+  "num": 703,
+  "topic": "Cardiac",
+  "question": "A client starts losartan for hypertension. Which lab result should the nurse watch for?"
+ },
+ {
+  "num": 704,
+  "topic": "Neuro",
+  "question": "The nurse asks a client to smile, frown and puff out the cheeks. Which cranial nerve is being tested?"
+ },
+ {
+  "num": 705,
+  "topic": "Maternity",
+  "question": "On postpartum day 3 after a vaginal birth, where should the nurse expect to feel the fundus?"
+ },
+ {
+  "num": 706,
+  "topic": "Respiratory",
+  "question": "The nurse checks the cuff pressure on a client's tracheostomy tube. Which pressure is within the usual safe range?"
+ },
+ {
+  "num": 707,
+  "topic": "Mental Health",
+  "question": "A client who struggles in sports works extra hard to become the top student in class. Which defense mechanism is this?"
+ },
+ {
+  "num": 708,
+  "topic": "Hematology",
+  "question": "Which white blood cell count is within the normal adult range?"
+ },
+ {
+  "num": 709,
+  "topic": "Renal",
+  "question": "Which finding best shows that a client's hemodialysis session was effective?"
+ },
+ {
+  "num": 710,
+  "topic": "Peds",
+  "question": "According to Erikson, which stage is a healthy 2-year-old working through?"
+ },
+ {
+  "num": 711,
+  "topic": "GI",
+  "question": "A client with gallbladder disease asks about diet. Which food should the client limit?"
+ },
+ {
+  "num": 712,
+  "topic": "Cardiac",
+  "question": "The nurse measures the QRS complex on a client's ECG. Which duration is normal?"
+ },
+ {
+  "num": 713,
+  "topic": "Emergency",
+  "question": "A client has frostbite on the fingers. Which action should the nurse take?"
+ },
+ {
+  "num": 714,
+  "topic": "Newborn",
+  "question": "A loud noise startles a newborn. The arms extend outward, then come back in. Which reflex is this?"
+ },
+ {
+  "num": 715,
+  "topic": "Infection",
+  "question": "A client is prescribed nystatin oral suspension for thrush. Which instruction is correct?"
+ },
+ {
+  "num": 716,
+  "topic": "Neuro",
+  "question": "The nurse has a client stand with feet together and eyes closed. Which function is the nurse testing?"
+ },
+ {
+  "num": 717,
+  "topic": "Safety",
+  "question": "The nurse gets four call lights at once. Which client should the nurse see first?"
+ },
+ {
+  "num": 718,
+  "topic": "Hematology",
+  "question": "Which blood type is the universal donor for packed red blood cells?"
+ },
+ {
+  "num": 719,
+  "topic": "Respiratory",
+  "question": "A client had chest surgery 2 hours ago. Which chest tube finding should the nurse report to the provider?"
+ },
+ {
+  "num": 720,
+  "topic": "Skin",
+  "question": "Which finding should the nurse expect in a client with psoriasis?"
+ },
+ {
+  "num": 721,
+  "topic": "Acid-Base",
+  "question": "ABG results: pH 7.36, PaCO2 52 mmHg, HCO3 30 mEq/L. How should the nurse interpret these results?"
+ },
+ {
+  "num": 722,
+  "topic": "Skills",
+  "question": "The nurse cleans a client's closed surgical incision. Which technique is correct?"
+ },
+ {
+  "num": 723,
+  "topic": "Safety",
+  "question": "A client is scheduled for surgery. Who is responsible for explaining the risks of the procedure?"
+ },
+ {
+  "num": 724,
+  "topic": "Peds",
+  "question": "A child weighs 18 kg. The order is 15 mg/kg/day divided every 8 hours. How many mg should the nurse give per dose?"
+ },
+ {
+  "num": 725,
+  "topic": "Mental Health",
+  "question": "A client started haloperidol 3 days ago and now cannot sit still and keeps pacing. What does this suggest?"
+ },
+ {
+  "num": 726,
+  "topic": "Cardiac",
+  "question": "A client with a mechanical heart valve has a dental cleaning next week. Which instruction should the nurse give?"
+ },
+ {
+  "num": 727,
+  "topic": "Renal",
+  "question": "Which BUN level is within the normal adult range?"
+ },
+ {
+  "num": 728,
+  "topic": "Newborn",
+  "question": "The nurse sees tiny white bumps on a newborn's nose and chin. What should the nurse tell the parents?"
+ },
+ {
+  "num": 729,
+  "topic": "Emergency",
+  "question": "During a mass casualty event, which client should the nurse tag as minor (green)?"
+ },
+ {
+  "num": 730,
+  "topic": "Fundamentals",
+  "question": "Using Maslow's hierarchy, which client need should the nurse address first?"
+ },
+ {
+  "num": 731,
+  "topic": "Endocrine",
+  "question": "A client takes levothyroxine for hypothyroidism. Which finding suggests the dose is too high?"
+ },
+ {
+  "num": 732,
+  "topic": "Eye",
+  "question": "The nurse is giving eye drops. Where should the nurse place the drop?"
+ },
+ {
+  "num": "P378",
+  "topic": "Pharmacology",
+  "question": "Which serum digoxin level is within the usual therapeutic range?"
+ },
+ {
+  "num": "P379",
+  "topic": "Renal",
+  "question": "A client takes tacrolimus after a kidney transplant. Which instruction is most important?"
+ },
+ {
+  "num": "P380",
+  "topic": "Respiratory",
+  "question": "A client just had a thoracentesis. Which finding should the nurse report right away?"
+ },
+ {
+  "num": "P381",
+  "topic": "Cardiac",
+  "question": "A client's ankle-brachial index (ABI) is 0.6. What does this result suggest?"
+ },
+ {
+  "num": "P382",
+  "topic": "GI",
+  "question": "A client with acute pancreatitis has bluish bruising around the umbilicus. What does this suggest?"
+ },
+ {
+  "num": "P383",
+  "topic": "Peds",
+  "question": "Two nurses are giving CPR to an infant. Which compression to breath ratio is correct?"
+ },
+ {
+  "num": "P384",
+  "topic": "Neuro",
+  "question": "The nurse strokes the sole of an adult's foot. The big toe goes up and the toes fan out. What does this suggest?"
  }
 ]
