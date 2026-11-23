@@ -3,6 +3,21 @@ import glob, html, json
 
 DAYS_SHOWN = 3  # newest days shown open; older days go in a collapsed archive
 
+# Facebook profile photos: send people to the store. The link goes in the first
+# comment (Facebook tends to show posts with links in the caption to fewer people).
+FOLLOW_LINE = "❤️ Follow @ryan__glass for daily NCLEX practice questions!"
+FB_CTA = "📚 Want 150 more practice questions with rationales? Link in the comments 👇"
+FB_LINK_COMMENT = ("📚 150 NCLEX practice questions with full rationales 👉 "
+                   "https://shinelight37.gumroad.com/l/ryan_glass")
+
+
+def fb_photo_caption(cap):
+    if FB_CTA in cap:
+        return cap
+    if FOLLOW_LINE in cap:
+        return cap.replace(FOLLOW_LINE, f"{FB_CTA}\n\n{FOLLOW_LINE}", 1)
+    return f"{cap}\n\n{FB_CTA}"
+
 
 def write_kit(path="index.html"):
     days = {}
@@ -36,7 +51,8 @@ def write_kit(path="index.html"):
         if day["photos"]:
             out.append('<h3>Photos for your Facebook profile</h3>')
             for ph in day["photos"]:
-                cap = html.escape(ph["caption"])
+                cap = html.escape(fb_photo_caption(ph["caption"]))
+                link = html.escape(FB_LINK_COMMENT)
                 out.append(f'''
 <article class="post">
   <div class="meta"><span class="num">#{ph["num"]}</span><span>{html.escape(ph["topic"])} · post around {ph["time"]}</span></div>
@@ -44,6 +60,9 @@ def write_kit(path="index.html"):
   <div class="row">
     <button class="btn ghost" onclick="saveMedia(this,'{ph["image"]}')">Save to Photos</button>
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
+  </div>
+  <div class="row">
+    <button class="btn ghost" data-label="Copy link comment" onclick="copyText(this,'{link}')">Copy link comment</button>
   </div>
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
   <textarea hidden>{cap}</textarea>
@@ -79,7 +98,7 @@ details{{margin-top:10px;color:var(--muted)}}
 .day>summary{{color:var(--text);font-weight:600;cursor:pointer}}.day>summary span{{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
-<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
+<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. For Facebook photos: post with the caption, then paste the link comment as the first comment. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
 {body}
 </main>
 <script>
@@ -89,6 +108,9 @@ const name=url.split('/').pop();const file=new File([blob],name,{{type:blob.type
 if(navigator.canShare&&navigator.canShare({{files:[file]}})){{await navigator.share({{files:[file]}})}}
 else{{const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click()}}}}
 catch(e){{}} b.textContent=old}}
+function copyText(b,t){{const old=b.dataset.label||b.textContent;
+const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent=old,1500)}};
+if(navigator.clipboard){{navigator.clipboard.writeText(t).then(done)}}else{{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}}}
 function copyCap(b){{const t=b.closest('.post').querySelector('textarea').value;
 const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent='Copy caption',1500)}};
 if(navigator.clipboard){{navigator.clipboard.writeText(t).then(done)}}else{{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}}}
