@@ -8,6 +8,8 @@ DAYS_SHOWN = 3  # newest days shown open; older days go in a collapsed archive
 # The link comment is only for posts on his own profile, never in groups.
 FOLLOW_LINE = "❤️ Follow @ryan__glass for daily NCLEX practice questions!"
 FB_CTA = "📚 Want 150 more practice questions with rationales? The full question bank is linked on my profile 👤"
+# TikTok photo posts on the 2 small accounts that can't have a bio link
+TT_CTA = "📚 Want 150 more practice questions with rationales? The full question bank is linked on @ryan__glass 👤"
 FB_LINK_COMMENT = ("📚 150 NCLEX practice questions with full rationales 👉 "
                    "https://shinelight37.gumroad.com/l/ryan_glass")
 
@@ -54,6 +56,7 @@ def write_kit(path="index.html"):
             for ph in day["photos"]:
                 cap = html.escape(fb_photo_caption(ph["caption"]))
                 link = html.escape(FB_LINK_COMMENT)
+                tt = html.escape(fb_photo_caption(ph["caption"]).replace(FB_CTA, TT_CTA))
                 out.append(f'''
 <article class="post">
   <div class="meta"><span class="num">#{ph["num"]}</span><span>{html.escape(ph["topic"])} · post around {ph["time"]}</span></div>
@@ -63,10 +66,14 @@ def write_kit(path="index.html"):
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
   </div>
   <div class="row">
+    <button class="btn ghost" onclick="copyCap(this,'.tt')">Copy TikTok caption (no-link accounts)</button>
+  </div>
+  <div class="row">
     <button class="btn ghost" data-label="Copy link comment (own profile only)" onclick="copyText(this,'{link}')">Copy link comment (own profile only)</button>
   </div>
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
   <textarea hidden>{cap}</textarea>
+  <textarea hidden class="tt">{tt}</textarea>
 </article>''')
         if recent:
             blocks.append("".join(out))
@@ -99,7 +106,7 @@ details{{margin-top:10px;color:var(--muted)}}
 .day>summary{{color:var(--text);font-weight:600;cursor:pointer}}.day>summary span{{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
-<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. For Facebook photos: the caption sends people to your profile. Only paste the link comment on posts on your own profile, not in groups. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
+<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. For Facebook photos: the caption sends people to your profile. Only paste the link comment on posts on your own profile, not in groups. Use Copy TikTok caption on the 2 TikTok accounts without a bio link. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
 {body}
 </main>
 <script>
@@ -112,8 +119,8 @@ catch(e){{}} b.textContent=old}}
 function copyText(b,t){{const old=b.dataset.label||b.textContent;
 const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent=old,1500)}};
 if(navigator.clipboard){{navigator.clipboard.writeText(t).then(done)}}else{{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}}}
-function copyCap(b){{const t=b.closest('.post').querySelector('textarea').value;
-const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent='Copy caption',1500)}};
+function copyCap(b,sel){{const t=b.closest('.post').querySelector(sel||'textarea').value;const old=b.textContent;
+const done=()=>{{b.textContent='Copied ✓';setTimeout(()=>b.textContent=old,1500)}};
 if(navigator.clipboard){{navigator.clipboard.writeText(t).then(done)}}else{{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}}}
 </script></body></html>'''
     open(path, "w").write(page)
