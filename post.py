@@ -34,6 +34,19 @@ DRY = os.environ.get("DRY_RUN") == "1"
 
 STATE = "state/posted.json"
 
+# Comment-to-DM: Meta Business Suite auto-DMs the Gumroad link to anyone who
+# comments BANK on @ryan__glass or the Facebook Page. ryanglass444 has no
+# automation, so its reels keep the "link in bio" line.
+OLD_CTA = "📚 Want 150 more? Full NCLEX question bank with rationales: link in bio"
+NEW_CTA = "📩 Comment BANK and I'll DM you 150 more NCLEX practice questions with rationales"
+BANK_PLATFORMS = {"ig_reel", "fb_reel", "ig_carousel", "fb_photos"}
+
+
+def caption_for(cap, platform):
+    if platform in BANK_PLATFORMS:
+        return cap.replace(OLD_CTA, NEW_CTA)
+    return cap
+
 
 def log(*a):
     print(*a, flush=True)
@@ -181,7 +194,7 @@ def main():
                     # 40 min after the main account; never back-fill old reels in a burst
                     if now < when + IG2_DELAY or now - (when + IG2_DELAY) > dt.timedelta(minutes=90):
                         continue
-                cap = item["caption"]
+                cap = caption_for(item["caption"], platform)
                 try:
                     if DRY:
                         res = "dry-run"
