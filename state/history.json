@@ -3628,5 +3628,205 @@
   "num": "P384",
   "topic": "Neuro",
   "question": "The nurse strokes the sole of an adult's foot. The big toe goes up and the toes fan out. What does this suggest?"
+ },
+ {
+  "num": 733,
+  "topic": "Cardiac",
+  "question": "A client is switching from lisinopril to sacubitril-valsartan. How long must the last lisinopril dose be stopped before the first new dose?"
+ },
+ {
+  "num": 734,
+  "topic": "Peds",
+  "question": "Which food is the greatest choking risk for a healthy 2-year-old?"
+ },
+ {
+  "num": 735,
+  "topic": "Electrolytes",
+  "question": "Which serum phosphorus level is within the normal adult range?"
+ },
+ {
+  "num": 736,
+  "topic": "Respiratory",
+  "question": "A client is starting a nicotine patch to quit smoking. Which instruction is correct?"
+ },
+ {
+  "num": 737,
+  "topic": "Neuro",
+  "question": "In the BE FAST stroke screen, what does the A stand for?"
+ },
+ {
+  "num": 738,
+  "topic": "Maternity",
+  "question": "Which hormone does a home pregnancy test detect in the urine?"
+ },
+ {
+  "num": 739,
+  "topic": "GI",
+  "question": "A client has a nasogastric tube to low intermittent suction. Which imbalance is the client most at risk for?"
+ },
+ {
+  "num": 740,
+  "topic": "Mental Health",
+  "question": "A client with dementia becomes more confused and agitated every evening. What is this called?"
+ },
+ {
+  "num": 741,
+  "topic": "Renal",
+  "question": "The nurse teaches a client to collect a clean-catch urine specimen. Which instruction is correct?"
+ },
+ {
+  "num": 742,
+  "topic": "Cardiac",
+  "question": "Which finding is classic for an aortic dissection?"
+ },
+ {
+  "num": 743,
+  "topic": "Endocrine",
+  "question": "A water deprivation test is ordered. Which condition is it used to diagnose?"
+ },
+ {
+  "num": 744,
+  "topic": "Peds",
+  "question": "Parents ask when their child should have a first dental visit. Which response is best?"
+ },
+ {
+  "num": 745,
+  "topic": "Neuro",
+  "question": "A client is starting levetiracetam for seizures. Which side effect should the nurse teach the client to report?"
+ },
+ {
+  "num": 746,
+  "topic": "Respiratory",
+  "question": "Which client is at highest risk for aspiration pneumonia?"
+ },
+ {
+  "num": 747,
+  "topic": "Maternity",
+  "question": "What is the main purpose of Leopold maneuvers?"
+ },
+ {
+  "num": 748,
+  "topic": "Renal",
+  "question": "Which finding should the nurse expect in the diuretic phase of acute kidney injury?"
+ },
+ {
+  "num": 749,
+  "topic": "Hematology",
+  "question": "Which instruction helps prevent a sickle cell crisis?"
+ },
+ {
+  "num": 750,
+  "topic": "IV Therapy",
+  "question": "A client's IV site is red, warm and painful along the vein. Which complication is this?"
+ },
+ {
+  "num": 751,
+  "topic": "Cardiac",
+  "question": "A client is starting atorvastatin. Which baseline test is most important?"
+ },
+ {
+  "num": 752,
+  "topic": "Neuro",
+  "question": "A client opens the eyes only to painful stimuli. What is the Glasgow Coma Scale eye opening score?"
+ },
+ {
+  "num": 753,
+  "topic": "Peds",
+  "question": "Which routine infant vaccine is given by mouth?"
+ },
+ {
+  "num": 754,
+  "topic": "GI",
+  "question": "Which order is correct for assessing the abdomen?"
+ },
+ {
+  "num": 755,
+  "topic": "Endocrine",
+  "question": "Before a client starts metformin, which lab is most important to check?"
+ },
+ {
+  "num": 756,
+  "topic": "Mental Health",
+  "question": "Which statement by the nurse is an example of offering self?"
+ },
+ {
+  "num": 757,
+  "topic": "Respiratory",
+  "question": "Which test confirms active tuberculosis?"
+ },
+ {
+  "num": 758,
+  "topic": "Musculoskeletal",
+  "question": "Which finding should the nurse expect in a client with osteomyelitis?"
+ },
+ {
+  "num": 759,
+  "topic": "Peds",
+  "question": "A child has a ventriculoperitoneal (VP) shunt. Which finding suggests the shunt is not working?"
+ },
+ {
+  "num": 760,
+  "topic": "Infection",
+  "question": "A client takes ciprofloxacin. Which product should be taken at a different time?"
+ },
+ {
+  "num": 761,
+  "topic": "Cardiac",
+  "question": "A client has a suspected heart attack and no aspirin allergy. Which medication should the nurse expect the client to chew?"
+ },
+ {
+  "num": 762,
+  "topic": "Newborn",
+  "question": "How long should the nurse count a newborn's apical heart rate?"
+ },
+ {
+  "num": 763,
+  "topic": "Safety",
+  "question": "The nurse finds a frayed power cord on an IV pump. What should the nurse do?"
+ },
+ {
+  "num": 764,
+  "topic": "Immune",
+  "question": "Which lab result best shows how well HIV medications are working?"
+ },
+ {
+  "num": 765,
+  "topic": "Renal",
+  "question": "A client has calcium oxalate kidney stones. Which food should the client limit?"
+ },
+ {
+  "num": "P385",
+  "topic": "Pharmacology",
+  "question": "A client has a new medication order for metoprolol. Which drug class do medications ending in -olol belong to?"
+ },
+ {
+  "num": "P386",
+  "topic": "Cardiac",
+  "question": "Which resting heart rate is within the normal range for a healthy adult?"
+ },
+ {
+  "num": "P387",
+  "topic": "Respiratory",
+  "question": "A client with acute pulmonary edema is coughing. Which sputum finding should the nurse expect?"
+ },
+ {
+  "num": "P388",
+  "topic": "Endocrine",
+  "question": "Which group of findings is known as the 3 Ps of diabetes?"
+ },
+ {
+  "num": "P389",
+  "topic": "Peds",
+  "question": "Which finding is a sign of respiratory distress in an infant?"
+ },
+ {
+  "num": "P390",
+  "topic": "Maternity",
+  "question": "A client is breastfeeding. Which hormone causes the milk let-down (ejection) reflex?"
+ },
+ {
+  "num": "P391",
+  "topic": "Mental Health",
+  "question": "A client is newly diagnosed with major depressive disorder. Which drug class is usually first-line?"
  }
 ]
