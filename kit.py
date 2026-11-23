@@ -29,6 +29,11 @@ def write_kit(path="index.html"):
         day = days.setdefault(d["date"], {"reels": [], "photos": []})
         day["photos"] += d.get("photos", [])
         day["reels"] += [it for it in d.get("items", []) if it.get("video") and not it.get("skip")]
+    allp = sorted((ph for d in days.values() for ph in d["photos"]), key=lambda ph: ph["num"])
+    upnext_data = json.dumps({str(ph["num"]): {
+        "img": ph["image"], "topic": ph["topic"],
+        "cap": fb_photo_caption(ph["caption"]),
+        "tt": fb_photo_caption(ph["caption"]).replace(FB_CTA, TT_CTA)} for ph in allp}).replace("</", "<\\/")
     blocks, archive = [], []
     for idx, date in enumerate(sorted(days, reverse=True)):
         recent = idx < DAYS_SHOWN
@@ -102,6 +107,7 @@ img,video{{width:100%;border-radius:12px;display:block;background:#000}}\nh3{{fo
 .btn{{flex:1;border:0;border-radius:12px;padding:13px;font:600 15px system-ui;background:var(--teal);color:#06101e;text-align:center;text-decoration:none;cursor:pointer}}
 .btn.ghost{{background:transparent;color:var(--teal);border:1px solid var(--teal)}}
 details{{margin-top:10px;color:var(--muted)}}
+.tabs{{display:flex;gap:8px;margin-bottom:12px}}.tab{{flex:1;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:12px;padding:10px 4px;font:600 14px system-ui}}.tab.on{{border-color:var(--teal);color:var(--teal)}}.tab small{{font-weight:400}}
 .day{{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 10px}}
 .day>summary{{color:var(--text);font-weight:600;cursor:pointer}}.day>summary span{{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
@@ -110,6 +116,30 @@ details{{margin-top:10px;color:var(--muted)}}
 {body}
 </main>
 <script>
+const PHOTOS={upnext_data};
+const CH=[{{id:"tt",name:"TikTok",start:306,tt:true}},{{id:"fb1",name:"Facebook 1",start:318}},{{id:"fb2",name:"Facebook 2",start:296}}];
+const PER=3;
+function getPos(c){{try{{const v=localStorage.getItem("pos_"+c.id);if(v)return +v}}catch(e){{}}return c.start}}
+function setPos(c,v){{try{{localStorage.setItem("pos_"+c.id,v)}}catch(e){{}}}}
+let cur=CH[0];
+function esc(t){{return t.replace(/[&<>"']/g,m=>({{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}}[m]))}}
+function render(){{
+ document.getElementById("tabs").innerHTML=CH.map(c=>`<button class="tab${{c===cur?" on":""}}" onclick="pick('${{c.id}}')">${{c.name}}<br><small>#${{getPos(c)}}</small></button>`).join("");
+ const start=getPos(cur);let html="";
+ for(let n=start;n<start+PER;n++){{const p=PHOTOS[n];
+  if(!p){{html+=`<p class="sub">#${{n}} is not made yet.</p>`;continue}}
+  const btns=cur.tt
+   ?`<button class="btn" onclick="copyText(this,PHOTOS[${{n}}].cap)" data-label="Copy caption (link accounts)">Copy caption (link accounts)</button></div><div class="row"><button class="btn ghost" onclick="copyText(this,PHOTOS[${{n}}].tt)" data-label="Copy caption (no-link accounts)">Copy caption (no-link accounts)</button>`
+   :`<button class="btn" onclick="copyText(this,PHOTOS[${{n}}].cap)" data-label="Copy caption">Copy caption</button>`;
+  html+=`<article class="post"><div class="meta"><span class="num">#${{n}}</span><span>${{esc(p.topic)}}</span></div>
+  <img src="${{p.img}}" loading="lazy"><div class="row"><button class="btn ghost" onclick="saveMedia(this,'${{p.img}}')">Save to Photos</button>${{btns}}</div></article>`}}
+ html+=`<div class="row"><button class="btn ghost" onclick="move(-PER)">Back 3</button><button class="btn" onclick="move(PER)">Done, next 3</button></div>
+ <div class="row"><button class="btn ghost" onclick="jump()">Jump to #</button></div>`;
+ document.getElementById("upnext").innerHTML=html}}
+function pick(id){{cur=CH.find(c=>c.id===id);render()}}
+function move(d){{setPos(cur,getPos(cur)+d);render();window.scrollTo(0,0)}}
+function jump(){{const v=prompt("Start at photo #",getPos(cur));if(v&&!isNaN(+v)){{setPos(cur,+v);render()}}}}
+document.addEventListener("DOMContentLoaded",render);
 async function saveMedia(b,url){{const old=b.textContent;b.textContent='Loading…';
 try{{const r=await fetch(url);const blob=await r.blob();
 const name=url.split('/').pop();const file=new File([blob],name,{{type:blob.type||(name.endsWith('.mp4')?'video/mp4':'image/png')}});
