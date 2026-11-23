@@ -3,10 +3,11 @@ import glob, html, json
 
 DAYS_SHOWN = 3  # newest days shown open; older days go in a collapsed archive
 
-# Facebook profile photos: send people to the store. The link goes in the first
-# comment (Facebook tends to show posts with links in the caption to fewer people).
+# Facebook profile photos: most reach comes from groups, and many groups ban links,
+# so the caption points people to Ryan's profile (link in his intro and featured post).
+# The link comment is only for posts on his own profile, never in groups.
 FOLLOW_LINE = "❤️ Follow @ryan__glass for daily NCLEX practice questions!"
-FB_CTA = "📚 Want 150 more practice questions with rationales? Link in the comments 👇"
+FB_CTA = "📚 Want 150 more practice questions with rationales? The full question bank is linked on my profile 👤"
 FB_LINK_COMMENT = ("📚 150 NCLEX practice questions with full rationales 👉 "
                    "https://shinelight37.gumroad.com/l/ryan_glass")
 
@@ -62,7 +63,7 @@ def write_kit(path="index.html"):
     <button class="btn" onclick="copyCap(this)">Copy caption</button>
   </div>
   <div class="row">
-    <button class="btn ghost" data-label="Copy link comment" onclick="copyText(this,'{link}')">Copy link comment</button>
+    <button class="btn ghost" data-label="Copy link comment (own profile only)" onclick="copyText(this,'{link}')">Copy link comment (own profile only)</button>
   </div>
   <details><summary>Show caption</summary><pre>{cap}</pre></details>
   <textarea hidden>{cap}</textarea>
@@ -98,7 +99,7 @@ details{{margin-top:10px;color:var(--muted)}}
 .day>summary{{color:var(--text);font-weight:600;cursor:pointer}}.day>summary span{{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}}pre{{white-space:pre-wrap;font:13px/1.4 system-ui;color:var(--text)}}
 </style></head><body><main>
 <h1>Daily NCLEX Posts</h1>
-<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. For Facebook photos: post with the caption, then paste the link comment as the first comment. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
+<p class="sub">Reels for TikTok, photos for your Facebook profile and groups. For Facebook photos: the caption sends people to your profile. Only paste the link comment on posts on your own profile, not in groups. On iPhone: press and hold an image to save it. Tap Save to Photos, then choose Save Image or Save Video in the share menu.</p>
 {body}
 </main>
 <script>
