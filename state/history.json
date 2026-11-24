@@ -3828,5 +3828,170 @@
   "num": "P391",
   "topic": "Mental Health",
   "question": "A client is newly diagnosed with major depressive disorder. Which drug class is usually first-line?"
+ },
+ {
+  "num": 766,
+  "topic": "Cardiac",
+  "question": "A client with angina starts isosorbide mononitrate. Which side effect is most common?"
+ },
+ {
+  "num": 767,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in a child with pinworms?"
+ },
+ {
+  "num": 768,
+  "topic": "Electrolytes",
+  "question": "The nurse taps the client's cheek in front of the ear and the facial muscles twitch. Which imbalance does this suggest?"
+ },
+ {
+  "num": 769,
+  "topic": "Respiratory",
+  "question": "The nurse teaches a client to use a peak flow meter. Which instruction is correct?"
+ },
+ {
+  "num": 770,
+  "topic": "Mental Health",
+  "question": "A client suddenly stops taking venlafaxine. Which findings should the nurse expect?"
+ },
+ {
+  "num": 771,
+  "topic": "Medications",
+  "question": "A client says one of the pills looks different from usual. What should the nurse do?"
+ },
+ {
+  "num": 772,
+  "topic": "Endocrine",
+  "question": "A client had both adrenal glands removed. Which medication will the client need for life?"
+ },
+ {
+  "num": 773,
+  "topic": "GI",
+  "question": "A client has a blocked common bile duct. Which stool finding should the nurse expect?"
+ },
+ {
+  "num": 774,
+  "topic": "Maternity",
+  "question": "Which test done at 15 to 20 weeks of pregnancy screens for neural tube defects?"
+ },
+ {
+  "num": 775,
+  "topic": "Neuro",
+  "question": "A client has a subarachnoid hemorrhage. Which medication helps prevent cerebral vasospasm?"
+ },
+ {
+  "num": 776,
+  "topic": "Renal",
+  "question": "Which finding is the most common early sign of bladder cancer?"
+ },
+ {
+  "num": 777,
+  "topic": "Infection",
+  "question": "Which vaccine is most important for a nurse because of possible blood exposure?"
+ },
+ {
+  "num": 778,
+  "topic": "GI",
+  "question": "A client has taken pantoprazole every day for years. Which risk should the nurse teach about?"
+ },
+ {
+  "num": 779,
+  "topic": "Peds",
+  "question": "A 2-year-old plays with blocks next to another child but not with the child. What type of play is this?"
+ },
+ {
+  "num": 780,
+  "topic": "Cardiac",
+  "question": "A client's implanted defibrillator (ICD) fires once. The client feels fine afterward. What should the client do?"
+ },
+ {
+  "num": 781,
+  "topic": "Respiratory",
+  "question": "Which test is used to confirm a diagnosis of COPD?"
+ },
+ {
+  "num": 782,
+  "topic": "Musculoskeletal",
+  "question": "A client with osteoporosis takes calcium carbonate. Which instruction is correct?"
+ },
+ {
+  "num": 783,
+  "topic": "Mental Health",
+  "question": "Which question by the nurse is open-ended?"
+ },
+ {
+  "num": 784,
+  "topic": "Endocrine",
+  "question": "Before a thyroidectomy for hyperthyroidism, which medication reduces the size and blood flow of the gland?"
+ },
+ {
+  "num": 785,
+  "topic": "Hematology",
+  "question": "During a blood transfusion, an older client has dyspnea, crackles and a rising BP. What should the nurse suspect?"
+ },
+ {
+  "num": 786,
+  "topic": "Newborn",
+  "question": "A 1-hour-old newborn has bluish hands and feet. The lips and trunk are pink. What should the nurse do?"
+ },
+ {
+  "num": 787,
+  "topic": "Cardiac",
+  "question": "Which risk factor for coronary artery disease can the client change?"
+ },
+ {
+  "num": 788,
+  "topic": "Neuro",
+  "question": "Which instruction helps a client with Parkinson disease walk safely?"
+ },
+ {
+  "num": 789,
+  "topic": "Pharmacology",
+  "question": "The nurse gives IV atropine. Which effect should the nurse expect?"
+ },
+ {
+  "num": 790,
+  "topic": "GI",
+  "question": "Which finding after a colonoscopy should the nurse report right away?"
+ },
+ {
+  "num": 791,
+  "topic": "Maternity",
+  "question": "A client with hypertension learns she is pregnant. Which medication should the nurse expect the provider to stop?"
+ },
+ {
+  "num": 792,
+  "topic": "Respiratory",
+  "question": "Which PaO2 value is within the normal range for an adult on room air?"
+ },
+ {
+  "num": 793,
+  "topic": "Renal",
+  "question": "Which finding should the nurse expect in a client with benign prostatic hyperplasia (BPH)?"
+ },
+ {
+  "num": 794,
+  "topic": "Perioperative",
+  "question": "Which action best helps prevent wrong-site surgery?"
+ },
+ {
+  "num": 795,
+  "topic": "Peds",
+  "question": "Which finding should the nurse expect in a child with scarlet fever?"
+ },
+ {
+  "num": 796,
+  "topic": "Skin",
+  "question": "The nurse teaches skin cancer prevention. Which instruction is correct?"
+ },
+ {
+  "num": 797,
+  "topic": "Pain",
+  "question": "A client has an opioid PCA pump after surgery. Who should press the dose button?"
+ },
+ {
+  "num": 798,
+  "topic": "Neuro",
+  "question": "Which test is most useful in diagnosing a seizure disorder?"
  }
 ]
