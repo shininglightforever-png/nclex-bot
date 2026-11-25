@@ -3993,5 +3993,170 @@
   "num": 798,
   "topic": "Neuro",
   "question": "Which test is most useful in diagnosing a seizure disorder?"
+ },
+ {
+  "num": 799,
+  "topic": "Cardiac",
+  "question": "A client with heart failure is starting carvedilol. Which instruction should the nurse include?"
+ },
+ {
+  "num": 800,
+  "topic": "Infection Control",
+  "question": "A child is admitted with rubella (German measles). Which precautions should the nurse use?"
+ },
+ {
+  "num": 801,
+  "topic": "Peds",
+  "question": "By what age does the anterior fontanel usually close?"
+ },
+ {
+  "num": 802,
+  "topic": "Respiratory",
+  "question": "A tall, thin young adult has sudden sharp chest pain and shortness of breath. Breath sounds are absent on the left. What should the nurse suspect?"
+ },
+ {
+  "num": 803,
+  "topic": "Mental Health",
+  "question": "A client starts mirtazapine for depression. Which side effect should the nurse teach the client to expect?"
+ },
+ {
+  "num": 804,
+  "topic": "Hematology",
+  "question": "Which hemoglobin level is within the normal range for an adult female?"
+ },
+ {
+  "num": 805,
+  "topic": "Endocrine",
+  "question": "A client with diabetes starts prednisone. Which change should the nurse expect?"
+ },
+ {
+  "num": 806,
+  "topic": "Maternity",
+  "question": "Which finding shows a client is in true labor rather than false labor?"
+ },
+ {
+  "num": 807,
+  "topic": "GI",
+  "question": "The nurse gives medications through a feeding tube. Which action is correct?"
+ },
+ {
+  "num": 808,
+  "topic": "Neuro",
+  "question": "A client with Guillain-Barr\u00e9 syndrome has weakness moving up to the chest. What is the priority assessment?"
+ },
+ {
+  "num": 809,
+  "topic": "Renal",
+  "question": "A client had a cystoscopy this morning. Which finding is expected?"
+ },
+ {
+  "num": 810,
+  "topic": "Pharmacology",
+  "question": "A client starts gabapentin for nerve pain. Which side effect is most common?"
+ },
+ {
+  "num": 811,
+  "topic": "Cardiac",
+  "question": "The monitor shows an irregularly irregular rhythm with no clear P waves. Which rhythm is this?"
+ },
+ {
+  "num": 812,
+  "topic": "Mental Health",
+  "question": "Which statement by the nurse is a barrier to therapeutic communication?"
+ },
+ {
+  "num": 813,
+  "topic": "Newborn",
+  "question": "A newborn has flat, blue-gray patches on the lower back. What should the nurse do?"
+ },
+ {
+  "num": 814,
+  "topic": "GI",
+  "question": "How should the nurse measure the length for a nasogastric tube before insertion?"
+ },
+ {
+  "num": 815,
+  "topic": "Electrolytes",
+  "question": "Which client is most at risk for hyperkalemia?"
+ },
+ {
+  "num": 816,
+  "topic": "Musculoskeletal",
+  "question": "Three days after a leg amputation, a client reports pain in the removed foot. What should the nurse do?"
+ },
+ {
+  "num": 817,
+  "topic": "Respiratory",
+  "question": "Which finding fits a diagnosis of chronic bronchitis?"
+ },
+ {
+  "num": 818,
+  "topic": "Infection Control",
+  "question": "Which healthy adult should the nurse expect to receive the recombinant shingles vaccine?"
+ },
+ {
+  "num": 819,
+  "topic": "Peds",
+  "question": "Which fear is most common in a hospitalized preschool child?"
+ },
+ {
+  "num": 820,
+  "topic": "Endocrine",
+  "question": "Which lab test is the best screening test for thyroid function?"
+ },
+ {
+  "num": 821,
+  "topic": "Pharmacology",
+  "question": "A client with urinary retention after surgery receives bethanechol. Which effect shows it is working?"
+ },
+ {
+  "num": 822,
+  "topic": "Priority",
+  "question": "Which client should the nurse see first?"
+ },
+ {
+  "num": 823,
+  "topic": "Neuro",
+  "question": "The nurse asks a client to close the eyes and identify the smell of coffee. Which cranial nerve is being tested?"
+ },
+ {
+  "num": 824,
+  "topic": "Maternity",
+  "question": "A client at 28 weeks of pregnancy has leg cramps at night. Which action helps?"
+ },
+ {
+  "num": 825,
+  "topic": "Eye",
+  "question": "A child has bacterial conjunctivitis (pink eye). Which instruction should the nurse give the parents?"
+ },
+ {
+  "num": 826,
+  "topic": "GI",
+  "question": "A client with suspected appendicitis asks for a heating pad for the pain. What should the nurse do?"
+ },
+ {
+  "num": 827,
+  "topic": "Acid-Base",
+  "question": "A client has had severe diarrhea for 3 days. Which acid-base imbalance is most likely?"
+ },
+ {
+  "num": 828,
+  "topic": "Oncology",
+  "question": "A client starting chemotherapy asks about hair loss. Which response is correct?"
+ },
+ {
+  "num": 829,
+  "topic": "Burns",
+  "question": "Using the Parkland formula, when should the first half of the 24-hour fluid total be given?"
+ },
+ {
+  "num": 830,
+  "topic": "Delegation",
+  "question": "Which task must the RN do and not delegate to a UAP?"
+ },
+ {
+  "num": 831,
+  "topic": "Older Adult",
+  "question": "Which finding is an expected normal change of aging?"
  }
 ]
