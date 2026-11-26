@@ -4158,5 +4158,170 @@
   "num": 831,
   "topic": "Older Adult",
   "question": "Which finding is an expected normal change of aging?"
+ },
+ {
+  "num": 832,
+  "topic": "Hematology",
+  "question": "A client with a new DVT is on a heparin infusion and starts warfarin today. Why is the heparin continued for several days?"
+ },
+ {
+  "num": 833,
+  "topic": "Neuro",
+  "question": "A client with myasthenia gravis has more weakness 1 hour after taking pyridostigmine, plus heavy sweating, drooling and cramps. What should the nurse suspect?"
+ },
+ {
+  "num": 834,
+  "topic": "Pharmacology",
+  "question": "A client just received an IM penicillin injection in the clinic. What should the nurse do next?"
+ },
+ {
+  "num": 835,
+  "topic": "Endocrine",
+  "question": "Which test is used to screen for Cushing syndrome?"
+ },
+ {
+  "num": 836,
+  "topic": "Respiratory",
+  "question": "A client uses an albuterol inhaler during an asthma attack. Which side effect should the nurse expect?"
+ },
+ {
+  "num": 837,
+  "topic": "Maternity",
+  "question": "When is a pregnant client usually screened for group B strep (GBS)?"
+ },
+ {
+  "num": 838,
+  "topic": "Renal",
+  "question": "A client with chronic kidney disease asks about an antacid for heartburn. Which product should the client avoid?"
+ },
+ {
+  "num": 839,
+  "topic": "Peds",
+  "question": "A 1-year-old had a high fever for 3 days. When the fever broke, a pink rash appeared on the trunk. Which condition is most likely?"
+ },
+ {
+  "num": 840,
+  "topic": "Mental Health",
+  "question": "In which phase of the nurse-client relationship does the nurse review progress and prepare the client for discharge?"
+ },
+ {
+  "num": 841,
+  "topic": "Respiratory",
+  "question": "A client with COPD on 6 L/min of oxygen becomes very drowsy. The PaCO2 has risen to 72 mmHg. What should the nurse suspect?"
+ },
+ {
+  "num": 842,
+  "topic": "Fundamentals",
+  "question": "Which IM injection site is preferred for most adults because it is away from large nerves and blood vessels?"
+ },
+ {
+  "num": 843,
+  "topic": "Burns",
+  "question": "A client with burns is treated with silver sulfadiazine cream. Which lab value should the nurse monitor?"
+ },
+ {
+  "num": 844,
+  "topic": "Cardiac",
+  "question": "A client on telemetry has new, frequent premature ventricular contractions (PVCs). Which lab result should the nurse check first?"
+ },
+ {
+  "num": 845,
+  "topic": "GI",
+  "question": "A client with cirrhosis and ascites asks about diet. Which instruction is correct?"
+ },
+ {
+  "num": 846,
+  "topic": "Legal",
+  "question": "A client asks who will make health decisions if the client can no longer speak for themselves. Which document names that person?"
+ },
+ {
+  "num": 847,
+  "topic": "Neuro",
+  "question": "The nurse asks a client to hold both arms out, palms up, eyes closed. One arm drifts down and turns inward. What does this suggest?"
+ },
+ {
+  "num": 848,
+  "topic": "Endocrine",
+  "question": "A client with diabetes has lumpy, thickened skin where insulin is always injected. Which instruction should the nurse give?"
+ },
+ {
+  "num": 849,
+  "topic": "Infection Control",
+  "question": "Which statement about N95 respirators is correct?"
+ },
+ {
+  "num": 850,
+  "topic": "Oncology",
+  "question": "The nurse is preparing to give IV chemotherapy. Which PPE should the nurse wear?"
+ },
+ {
+  "num": 851,
+  "topic": "Peds Cardiac",
+  "question": "An infant has a continuous machine-like murmur and bounding pulses. Which heart defect should the nurse suspect?"
+ },
+ {
+  "num": 852,
+  "topic": "Hematology",
+  "question": "A client taking warfarin asks about shaving. Which instruction should the nurse give?"
+ },
+ {
+  "num": 853,
+  "topic": "Electrolytes",
+  "question": "A client has a potassium of 7.0 mEq/L with ECG changes and receives IV calcium gluconate. What is the purpose of the calcium?"
+ },
+ {
+  "num": 854,
+  "topic": "Mental Health",
+  "question": "After a stressful event, a client suddenly cannot move one arm. Tests find no physical cause, and the client seems unconcerned. What should the nurse suspect?"
+ },
+ {
+  "num": 855,
+  "topic": "GI",
+  "question": "A client takes bismuth subsalicylate for diarrhea and reports a dark tongue and black stools. What should the nurse tell the client?"
+ },
+ {
+  "num": 856,
+  "topic": "Maternity",
+  "question": "During labor, the nurse sees late decelerations on the fetal monitor. What is the most likely cause?"
+ },
+ {
+  "num": 857,
+  "topic": "Ear",
+  "question": "An order says to irrigate a client's ear to remove wax. Which finding should make the nurse hold the procedure?"
+ },
+ {
+  "num": 858,
+  "topic": "Priority",
+  "question": "The unit needs a bed for a new admission. Which client is most appropriate for the nurse to suggest for discharge?"
+ },
+ {
+  "num": 859,
+  "topic": "Musculoskeletal",
+  "question": "A client had a below-the-knee amputation. How should the nurse wrap the residual limb with an elastic bandage?"
+ },
+ {
+  "num": 860,
+  "topic": "Respiratory",
+  "question": "A client has a confirmed pulmonary embolism and stable vital signs. Which medication should the nurse expect first?"
+ },
+ {
+  "num": 861,
+  "topic": "Fundamentals",
+  "question": "The nurse places a tuberculin skin test on a client's forearm. Which technique is correct?"
+ },
+ {
+  "num": 862,
+  "topic": "Peds",
+  "question": "A pale 2-year-old drinks about 48 oz of cow's milk a day and eats little else. Which problem should the nurse suspect?"
+ },
+ {
+  "num": 863,
+  "topic": "Mobility",
+  "question": "The nurse uses a mechanical lift to move a client from the bed to a chair. Which action is correct?"
+ },
+ {
+  "num": 864,
+  "topic": "Pharmacology",
+  "question": "A client with pneumonia is starting azithromycin. Which ECG finding should the nurse report?"
  }
 ]
